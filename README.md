@@ -8,7 +8,7 @@ Este proyecto refleja las competencias adquiridas durante el ciclo formativo, in
 
 2. Descripción de la empresa
 TechMarbella Solutions S.L. es una empresa ficticia dedicada a servicios tecnológicos, con una plantilla de 30 empleados distribuidos en tres departamentos: Administración, Desarrollo y Soporte.
-La organización requiere una infraestructura de red segura, segmentada y gestionable, que permita garantizar la disponibilidad, integridad y confidencialidad de sus servicios internos.
+La organización requiere una infraestructura de red segura, segmentada y gestionable, que garantice la disponibilidad, integridad y confidencialidad de sus servicios internos.
 
 3. Objetivos del proyecto
 Objetivo general
@@ -93,4 +93,4 @@ El proyecto se encuentra en fase de desarrollo y documentación.
 Las configuraciones, diagramas y evidencias se irán incorporando progresivamente conforme avance la implementación.
 
 9. Autoría
-Proyecto realizado por Diego, alumno del ciclo formativo de Administración de Sistemas Informáticos en Red (ASIR)
+Proyecto realizado por Diego, alumno del ciclo formativo de Administración de Sistemas Informáticos en Red (ASIR).
