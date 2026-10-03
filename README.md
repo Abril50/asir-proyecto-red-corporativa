@@ -57,7 +57,6 @@ Los diagramas de red y topología se encuentran en la carpeta /diagrams.
 
 6. Estructura del repositorio
 Código
-## 📂 Estructura del repositorio
 
 La siguiente estructura muestra la organización completa del proyecto **asir-proyecto-red-corporativa**, incluyendo la memoria, manuales, diagramas y recursos asociados.
 
