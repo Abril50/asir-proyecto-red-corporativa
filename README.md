@@ -60,7 +60,7 @@ Los diagramas de red y topología se encuentran en la carpeta /diagrams.
 
 La siguiente estructura muestra la organización completa del proyecto **asir-proyecto-red-corporativa**, incluyendo la memoria, manuales, diagramas y recursos asociados.
 
-asir-proyecto-red-corporativa/
+```asir-proyecto-red-corporativa/
 ├── README.md
 ├── docs/
 │   ├── memoria/
@@ -79,7 +79,7 @@ asir-proyecto-red-corporativa/
 ├── config/
 ├── scripts/
 ├── tests/
-└── assets/
+└── assets/```
 
 8. Documentación asociada
 En la carpeta /docs/memoria se incluye la memoria completa del proyecto, organizada en capítulos:
