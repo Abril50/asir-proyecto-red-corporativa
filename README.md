@@ -56,10 +56,26 @@ Sistema de copias de seguridad con pruebas de restauración
 Los diagramas de red y topología se encuentran en la carpeta /diagrams.
 
 6. Estructura del repositorio
-Código
-
-La siguiente estructura muestra la organización completa del proyecto **asir-proyecto-red-corporativa**, incluyendo la memoria, manuales, diagramas y recursos asociados.
-
+asir-proyecto-red-corporativa/
+├── README.md
+├── docs/
+│   ├── memoria/
+│   │   ├── 01_introduccion.md
+│   │   ├── 02_analisis_requisitos.md
+│   │   ├── 03_diseno_arquitectura.md
+│   │   ├── 04_implementacion.md
+│   │   ├── 05_seguridad.md
+│   │   ├── 06_pruebas.md
+│   │   ├── 07_conclusiones.md
+│   │   └── 08_anexos.md
+│   └── manuales/
+│       ├── manual_usuario.md
+│       └── manual_administrador.md
+├── diagrams/
+├── config/
+├── scripts/
+├── tests/
+└── assets/
 
 7. Documentación asociada
 En la carpeta /docs/memoria se incluye la memoria completa del proyecto, organizada en capítulos:
