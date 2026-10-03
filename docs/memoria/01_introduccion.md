@@ -63,16 +63,22 @@ Técnicos y personal operativo
 
 5. Organigrama
 Representación textual del organigrama:
-Dirección General
-│
-├── Departamento de Administración
-│   └── Personal administrativo
-│
-├── Departamento de Desarrollo
-│   └── Programadores y analistas
-│
-└── Departamento de Soporte Técnico
-    └── Técnicos de sistemas y redes
+                         ┌───────────────────────┐
+                         │    Dirección General   │
+                         └─────────────┬─────────┘
+                                       │
+        ┌──────────────────────────────┼──────────────────────────────┐
+        │                              │                              │
+┌───────────────┐             ┌────────────────┐             ┌────────────────┐
+│ Departamento   │             │ Departamento   │             │ Departamento   │
+│ Administración │             │ Desarrollo     │             │ Soporte Técnico│
+└───────┬────────┘             └───────┬────────┘             └───────┬────────┘
+        │                              │                              │
+┌───────────────┐             ┌────────────────┐             ┌────────────────┐
+│ Personal       │             │ Programadores  │             │ Técnicos de    │
+│ Administrativo │             │ Analistas      │             │ Sistemas y Red │
+└───────────────┘             └────────────────┘             └────────────────┘
+
    
 7. Espacio físico
 La empresa cuenta con una oficina situada en Marbella, distribuida en:
