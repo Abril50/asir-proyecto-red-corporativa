@@ -63,21 +63,7 @@ Técnicos y personal operativo
 
 5. Organigrama
 Representación textual del organigrama:
-                         ┌───────────────────────┐
-                         │    Dirección General   │
-                         └─────────────┬─────────┘
-                                       │
-        ┌──────────────────────────────┼──────────────────────────────┐
-        │                              │                              │
-┌───────────────┐             ┌────────────────┐             ┌────────────────┐
-│ Departamento   │             │ Departamento   │             │ Departamento   │
-│ Administración │             │ Desarrollo     │             │ Soporte Técnico│
-└───────┬────────┘             └───────┬────────┘             └───────┬────────┘
-        │                              │                              │
-┌───────────────┐             ┌────────────────┐             ┌────────────────┐
-│ Personal       │             │ Programadores  │             │ Técnicos de    │
-│ Administrativo │             │ Analistas      │             │ Sistemas y Red │
-└───────────────┘             └────────────────┘             └────────────────┘
+                     
 
    
 7. Espacio físico
