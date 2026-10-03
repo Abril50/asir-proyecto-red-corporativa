@@ -63,7 +63,7 @@ Técnicos y personal operativo
 
 5. Organigrama
 Representación textual del organigrama:
-![Organigrama de TechMarbella Solutions S.L.](../assets/organigrama.png)
+![Organigrama de TechMarbella Solutions S.L.](../../assets/organigrama.png)
 
                      
 
