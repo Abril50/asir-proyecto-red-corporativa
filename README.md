@@ -57,16 +57,11 @@ Los diagramas de red y topología se encuentran en la carpeta /diagrams.
 
 6. Estructura del repositorio
 Código
-asir-proyecto-red-corporativa/
-├── README.md
-├── docs/
-│   ├── memoria/
-│   └── manuales/
-├── diagrams/
-├── config/
-├── scripts/
-├── tests/
-└── assets/
+## 📂 Estructura del repositorio
+
+La siguiente estructura muestra la organización completa del proyecto **asir-proyecto-red-corporativa**, incluyendo la memoria, manuales, diagramas y recursos asociados.
+
+
 7. Documentación asociada
 En la carpeta /docs/memoria se incluye la memoria completa del proyecto, organizada en capítulos:
 
