@@ -79,7 +79,8 @@ La siguiente estructura muestra la organización completa del proyecto **asir-pr
 ├── config/
 ├── scripts/
 ├── tests/
-└── assets/```
+└── assets/
+```
 
 8. Documentación asociada
 En la carpeta /docs/memoria se incluye la memoria completa del proyecto, organizada en capítulos:
