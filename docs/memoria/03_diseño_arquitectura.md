@@ -24,7 +24,7 @@ La arquitectura está diseñada para ser modular y escalable, permitiendo añadi
 
 3.2 Segmentación de red mediante VLANs
 Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
-[Descargar tabla de segmentación VLAN (CSV)](../../assets/vlans.csv)
+
 
 
 
@@ -34,13 +34,16 @@ Cada VLAN tiene su propio rango de direcciones IP y políticas de acceso especí
 3.3 Tabla de direccionamiento IP
 La tabla de direccionamiento propuesta es:
 
-VLAN	Rango IP	Gateway	Máscara
-10	192.168.10.0/24	192.168.10.1	255.255.255.0
-20	192.168.20.0/24	192.168.20.1	255.255.255.0
-30	192.168.30.0/24	192.168.30.1	255.255.255.0
-40	192.168.40.0/24	192.168.40.1	255.255.255.0
-50	192.168.50.0/24	192.168.50.1	255.255.255.0
-60	192.168.60.0/24	192.168.60.1	255.255.255.0
+| VLAN | Rango IP | Gateway | Máscara |
+|------|----------|---------|---------|
+| 10   | 192.168.10.0/24 | 192.168.10.1 | 255.255.255.0 |
+| 20   | 192.168.20.0/24 | 192.168.20.1 | 255.255.255.0 |
+| 30   | 192.168.30.0/24 | 192.168.30.1 | 255.255.255.0 |
+| 40   | 192.168.40.0/24 | 192.168.40.1 | 255.255.255.0 |
+| 50   | 192.168.50.0/24 | 192.168.50.1 | 255.255.255.0 |
+| 60   | 192.168.60.0/24 | 192.168.60.1 | 255.255.255.0 |
+
+
 
 
 El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas de seguridad.
