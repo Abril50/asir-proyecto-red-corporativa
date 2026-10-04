@@ -1,7 +1,7 @@
-3. Diseño de la arquitectura
+**3. Diseño de la arquitectura**
 El diseño de la arquitectura de red corporativa para TechMarbella Solutions S.L. se basa en los requisitos definidos en el capítulo anterior y en las buenas prácticas de administración de sistemas y seguridad. La solución propuesta busca garantizar la disponibilidad, seguridad, escalabilidad y eficiencia de los servicios corporativos.
 
-3.1 Visión general de la arquitectura
+**3.1 Visión general de la arquitectura**
 La infraestructura se compone de:
 
 Un firewall perimetral que actúa como punto de entrada y salida de la red.
@@ -22,7 +22,7 @@ Estaciones de trabajo distribuidas en tres departamentos: Administración, Desar
 
 La arquitectura está diseñada para ser modular y escalable, permitiendo añadir nuevos servicios o departamentos sin reestructurar la red.
 
-3.2 Segmentación de red mediante VLANs
+**3.2 Segmentación de red mediante VLANs**
 Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 
 | Departamento / Servicio        | VLAN | Descripción                                      |
@@ -36,7 +36,7 @@ Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 
 Cada VLAN tiene su propio rango de direcciones IP y políticas de acceso específicas.
 
-3.3 Tabla de direccionamiento IP
+**3.3 Tabla de direccionamiento IP**
 La tabla de direccionamiento propuesta es:
 
 | VLAN | Rango IP | Gateway | Máscara |
@@ -50,7 +50,7 @@ La tabla de direccionamiento propuesta es:
 
 El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas de seguridad.
 
-3.4 Componentes principales de la arquitectura
+**3.4 Componentes principales de la arquitectura**
 Firewall perimetral
 Filtrado de tráfico entrante y saliente.
 
@@ -92,7 +92,7 @@ Copias completas semanales.
 
 Almacenamiento en NAS o servidor dedicado.
 
-3.5 Diagrama lógico de la arquitectura
+**3.5 Diagrama lógico de la arquitectura**
 (Aquí colocarás tu diagrama cuando lo generemos. Si quieres, te lo preparo yo.)
 
 El diagrama mostrará:
@@ -113,7 +113,7 @@ IDS/IPS
 
 Sistema de backups
 
-3.6 Políticas de acceso entre VLANs
+**3.6 Políticas de acceso entre VLANs**
 Administración puede acceder a Servidores.
 
 Desarrollo solo accede a su VLAN y a servicios corporativos.
@@ -124,7 +124,7 @@ Invitados no tienen acceso a recursos internos.
 
 La VLAN de servidores está aislada excepto para tráfico autorizado.
 
-3.7 Consideraciones de seguridad
+**3.7 Consideraciones de seguridad**
 Segmentación estricta entre departamentos.
 
 Firewall con reglas específicas por VLAN.
@@ -137,5 +137,5 @@ Copias de seguridad automatizadas.
 
 VPN con cifrado fuerte.
 
-3.8 Conclusión del diseño
+**3.8 Conclusión del diseño**
 La arquitectura propuesta proporciona una infraestructura segura, escalable y eficiente, alineada con las necesidades de TechMarbella Solutions S.L. y con las buenas prácticas de administración de sistemas. Este diseño servirá como base para la implementación detallada en el capítulo siguiente.
