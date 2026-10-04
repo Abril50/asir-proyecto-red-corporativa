@@ -24,6 +24,7 @@ La arquitectura está diseñada para ser modular y escalable, permitiendo añadi
 
 3.2 Segmentación de red mediante VLANs
 Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
+[Descargar tabla de segmentación VLAN (CSV)](../../assets/vlans.csv)
 
 
 
