@@ -25,9 +25,14 @@ La arquitectura está diseñada para ser modular y escalable, permitiendo añadi
 3.2 Segmentación de red mediante VLANs
 Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 
-
-
-
+| Departamento / Servicio        | VLAN | Descripción                                      |
+|--------------------------------|------|--------------------------------------------------|
+| Administración                 | 10   | Gestión financiera y administrativa              |
+| Desarrollo                     | 20   | Equipos de programación y pruebas                |
+| Soporte Técnico                | 30   | Técnicos y herramientas de diagnóstico           |
+| Servidores                     | 40   | Segmento aislado para servicios críticos         |
+| Gestión / Administración de red| 50   | Acceso restringido para administradores          |
+| Invitados                      | 60   | Red aislada para dispositivos externos           |
 
 Cada VLAN tiene su propio rango de direcciones IP y políticas de acceso específicas.
 
@@ -42,9 +47,6 @@ La tabla de direccionamiento propuesta es:
 | 40   | 192.168.40.0/24 | 192.168.40.1 | 255.255.255.0 |
 | 50   | 192.168.50.0/24 | 192.168.50.1 | 255.255.255.0 |
 | 60   | 192.168.60.0/24 | 192.168.60.1 | 255.255.255.0 |
-
-
-
 
 El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas de seguridad.
 
