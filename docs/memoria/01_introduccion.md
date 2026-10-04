@@ -68,7 +68,7 @@ Representación textual del organigrama:
                      
 
    
-7. Espacio físico
+**6. Espacio físico**
 La empresa cuenta con una oficina situada en Marbella, distribuida en:
 
 Recepción y zona administrativa
@@ -85,7 +85,7 @@ Zona de descanso para empleados
 
 El espacio está diseñado para facilitar la comunicación entre departamentos y permitir un entorno de trabajo colaborativo.
 
-7. Comunicación
+**7. Comunicación**
 La comunicación interna se realiza mediante:
 
 Reuniones semanales de coordinación.
@@ -104,7 +104,7 @@ Correo electrónico.
 
 Portal de clientes para incidencias.
 
-8. Transmisión de la información
+**8. Transmisión de la información**
 La empresa utiliza mecanismos formales y estructurados para transmitir información:
 
 Intranet corporativa con documentación, manuales y procedimientos.
@@ -119,7 +119,7 @@ Copias de seguridad para garantizar la integridad de la información.
 
 La información sensible se transmite cifrada y con autenticación reforzada.
 
-9. Relaciones
+**9. Relaciones**
 Relaciones internas:
 
 Colaboración entre departamentos para proyectos y soporte.
@@ -136,7 +136,7 @@ Empresas clientes que contratan servicios TI.
 
 Servicios de telecomunicaciones y hosting.
 
-10. Economía (manejo del dinero)
+**10. Economía (manejo del dinero)**
 La empresa se financia mediante:
 
 Contratos de mantenimiento TI.
