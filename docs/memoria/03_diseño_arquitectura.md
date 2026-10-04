@@ -2,6 +2,7 @@
 El diseño de la arquitectura de red corporativa para TechMarbella Solutions S.L. se basa en los requisitos definidos en el capítulo anterior y en las buenas prácticas de administración de sistemas y seguridad. La solución propuesta busca garantizar la disponibilidad, seguridad, escalabilidad y eficiencia de los servicios corporativos.
 
 **3.1 Visión general de la arquitectura**
+
 La infraestructura se compone de:
 
 Un firewall perimetral que actúa como punto de entrada y salida de la red.
@@ -97,8 +98,6 @@ Copias completas semanales.
 Almacenamiento en NAS o servidor dedicado.
 
 **3.5 Diagrama lógico de la arquitectura**
-
-(Aquí colocarás tu diagrama cuando lo generemos. Si quieres, te lo preparo yo.)
 
 El diagrama mostrará:
 
