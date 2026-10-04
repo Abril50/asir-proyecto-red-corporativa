@@ -38,6 +38,7 @@ Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 Cada VLAN tiene su propio rango de direcciones IP y políticas de acceso específicas.
 
 **3.3 Tabla de direccionamiento IP**
+
 La tabla de direccionamiento propuesta es:
 
 | VLAN | Rango IP | Gateway | Máscara |
@@ -52,7 +53,9 @@ La tabla de direccionamiento propuesta es:
 El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas de seguridad.
 
 **3.4 Componentes principales de la arquitectura**
+
 Firewall perimetral
+
 Filtrado de tráfico entrante y saliente.
 
 NAT y port forwarding.
