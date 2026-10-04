@@ -97,6 +97,7 @@ Copias completas semanales.
 Almacenamiento en NAS o servidor dedicado.
 
 **3.5 Diagrama lógico de la arquitectura**
+
 (Aquí colocarás tu diagrama cuando lo generemos. Si quieres, te lo preparo yo.)
 
 El diagrama mostrará:
@@ -118,6 +119,7 @@ IDS/IPS
 Sistema de backups
 
 **3.6 Políticas de acceso entre VLANs**
+
 Administración puede acceder a Servidores.
 
 Desarrollo solo accede a su VLAN y a servicios corporativos.
@@ -129,6 +131,7 @@ Invitados no tienen acceso a recursos internos.
 La VLAN de servidores está aislada excepto para tráfico autorizado.
 
 **3.7 Consideraciones de seguridad**
+
 Segmentación estricta entre departamentos.
 
 Firewall con reglas específicas por VLAN.
@@ -142,4 +145,5 @@ Copias de seguridad automatizadas.
 VPN con cifrado fuerte.
 
 **3.8 Conclusión del diseño**
+
 La arquitectura propuesta proporciona una infraestructura segura, escalable y eficiente, alineada con las necesidades de TechMarbella Solutions S.L. y con las buenas prácticas de administración de sistemas. Este diseño servirá como base para la implementación detallada en el capítulo siguiente.
