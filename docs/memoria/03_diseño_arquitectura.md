@@ -23,6 +23,7 @@ Estaciones de trabajo distribuidas en tres departamentos: Administración, Desar
 La arquitectura está diseñada para ser modular y escalable, permitiendo añadir nuevos servicios o departamentos sin reestructurar la red.
 
 **3.2 Segmentación de red mediante VLANs**
+
 Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 
 | Departamento / Servicio        | VLAN | Descripción                                      |
