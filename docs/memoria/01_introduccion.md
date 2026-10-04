@@ -1,5 +1,5 @@
-Marco de referencia de la empresa ficticia: TechMarbella Solutions S.L.
-1. Tipo de organización
+### **Marco de referencia de la empresa ficticia: TechMarbella Solutions S.L.**
+**1. Tipo de organización**
 TechMarbella Solutions S.L. es una pequeña y mediana empresa (PYME) del sector tecnológico.
 Su estructura y funcionamiento se alinean con las características de una organización privada, orientada a servicios, con un enfoque en soluciones informáticas y soporte técnico para clientes locales y regionales.
 
@@ -13,7 +13,7 @@ Tamaño: 30 empleados.
 
 Actividad basada en servicios profesionales y soporte técnico.
 
-2. Actividad específica
+**2. Actividad específica**
 La empresa se dedica a:
 
 Servicios de soporte técnico a empresas.
@@ -28,7 +28,7 @@ Implementación de infraestructura TI (servidores, redes, seguridad).
 
 Su actividad principal es garantizar que los clientes dispongan de sistemas informáticos seguros, estables y eficientes.
 
-3. Historia
+**3. Historia**
 TechMarbella Solutions S.L. fue fundada en 2016 por dos técnicos informáticos con experiencia en administración de sistemas y soporte empresarial.
 Inicialmente comenzó como un pequeño servicio de asistencia técnica local, pero con el aumento de la demanda de soluciones tecnológicas en la Costa del Sol, la empresa creció hasta convertirse en un proveedor integral de servicios TI.
 
@@ -44,7 +44,7 @@ Hitos relevantes:
 
 2025: Consolidación como proveedor tecnológico para empresas medianas.
 
-4. Estructura jerárquica
+**4. Estructura jerárquica**
 La empresa adopta una estructura jerárquica funcional, donde cada departamento tiene responsabilidades específicas y reporta a la dirección general.
 
 Niveles jerárquicos:
@@ -61,7 +61,7 @@ Soporte Técnico
 
 Técnicos y personal operativo
 
-5. Organigrama
+**5. Organigrama**
 Representación textual del organigrama:
 ![Organigrama de TechMarbella Solutions S.L.](../../assets/organigrama.png)
 
