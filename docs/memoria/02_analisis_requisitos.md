@@ -1,7 +1,7 @@
-2. Análisis de requisitos
+### **2. Análisis de requisitos**
 El presente capítulo recoge el análisis de necesidades de la empresa TechMarbella Solutions S.L., así como los requisitos funcionales y no funcionales que definirán el diseño de la infraestructura de red corporativa. Este análisis sirve como base para la arquitectura propuesta y para la posterior implementación de los servicios.
 
-2.1 Necesidades de la empresa
+**2.1 Necesidades de la empresa**
 TechMarbella Solutions S.L. es una empresa tecnológica con tres departamentos principales: Administración, Desarrollo y Soporte Técnico. Debido a su crecimiento y a la necesidad de mejorar la seguridad y eficiencia de sus procesos internos, la organización requiere una infraestructura de red que cumpla los siguientes objetivos:
 
 Garantizar una comunicación interna segura entre empleados y departamentos.
@@ -22,7 +22,7 @@ Facilitar el acceso remoto seguro para empleados autorizados mediante VPN.
 
 Estas necesidades se traducen en requisitos técnicos que guiarán el diseño de la solución.
 
-2.2 Requisitos funcionales
+**2.2 Requisitos funcionales**
 Los requisitos funcionales definen las capacidades que la infraestructura debe proporcionar:
 
 Directorio Activo (AD DS) para la gestión centralizada de usuarios, grupos y políticas.
@@ -45,7 +45,7 @@ Sistema de copias de seguridad automatizado.
 
 Intranet corporativa para documentación interna y comunicación.
 
-2.3 Requisitos no funcionales
+**2.3 Requisitos no funcionales**
 Los requisitos no funcionales establecen criterios de calidad y rendimiento:
 
 Disponibilidad: los servicios deben estar operativos la mayor parte del tiempo.
@@ -60,7 +60,7 @@ Mantenibilidad: la infraestructura debe ser fácil de administrar y documentar.
 
 Fiabilidad: los datos deben estar protegidos y ser recuperables ante fallos.
 
-2.4 Restricciones del proyecto
+**2.4 Restricciones del proyecto**
 El proyecto debe desarrollarse teniendo en cuenta las siguientes limitaciones:
 
 Presupuesto limitado, propio de una PYME.
@@ -73,7 +73,7 @@ Tiempo de ejecución acotado, según los plazos del proyecto académico.
 
 Compatibilidad con los sistemas ya utilizados por la empresa.
 
-2.5 Alcance del proyecto
+**2.5 Alcance del proyecto**
 El alcance del proyecto incluye:
 
 Incluido
@@ -102,5 +102,5 @@ Servicios cloud avanzados no contemplados en la infraestructura local.
 
 Mantenimiento posterior al despliegue.
 
-2.6 Conclusión del análisis
+**2.6 Conclusión del análisis**
 El análisis de requisitos permite establecer una visión clara de las necesidades de TechMarbella Solutions S.L. y define los elementos esenciales que la infraestructura debe cubrir. Este capítulo sirve como base para el diseño técnico que se desarrollará en el capítulo siguiente.
