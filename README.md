@@ -90,6 +90,8 @@ La siguiente estructura muestra la organización completa del proyecto **asir-pr
 **7. Documentación asociada**
 En la carpeta /docs/memoria se incluye la memoria completa del proyecto, organizada en capítulos:
 
+Planificación
+
 Introducción
 
 Análisis de requisitos
