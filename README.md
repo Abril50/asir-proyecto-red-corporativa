@@ -64,19 +64,23 @@ La siguiente estructura muestra la organización completa del proyecto **asir-pr
 ```asir-proyecto-red-corporativa/
 ├── README.md
 ├── docs/
-│   ├── memoria/
-│   │   ├── 01_introduccion.md
-│   │   ├── 02_analisis_requisitos.md
-│   │   ├── 03_diseno_arquitectura.md
-│   │   ├── 04_implementacion.md
-│   │   ├── 05_seguridad.md
-│   │   ├── 06_pruebas.md
-│   │   ├── 07_conclusiones.md
-│   │   └── 08_anexos.md
-│   └── manuales/
-│       ├── manual_usuario.md
-│       └── manual_administrador.md
+│ ├── memoria/
+│ │ ├── 00_planificacion.md
+│ │ ├── 01_introduccion.md
+│ │ ├── 02_analisis_requisitos.md
+│ │ ├── 03_diseno_arquitectura.md
+│ │ ├── 04_implementacion.md
+│ │ ├── 05_seguridad.md
+│ │ ├── 06_pruebas.md
+│ │ ├── 07_conclusiones.md
+│ │ └── 08_anexos.md
+│ └── manuales/
+│ ├── manual_usuario.md
+│ └── manual_administrador.md
 ├── diagrams/
+│ ├── gantt_project.gan
+│ ├── gantt_proyecto.png
+│ └── cronograma.pdf
 ├── config/
 ├── scripts/
 ├── tests/
