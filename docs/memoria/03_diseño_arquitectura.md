@@ -29,8 +29,6 @@ Un sistema de auditoría informática basado en el análisis de registros y even
 
 Una VPN corporativa para acceso remoto seguro.
 
-Un sistema de copias de seguridad centralizado.
-
 Una intranet corporativa alojada en el servidor Linux.
 
 Estaciones de trabajo distribuidas en tres departamentos: Administración, Desarrollo y Soporte Técnico.
@@ -271,6 +269,13 @@ Los usuarios autorizados podrán acceder a los recursos corporativos mediante un
  
 Este sistema permitirá el teletrabajo manteniendo la confidencialidad e integridad de las comunicaciones entre los usuarios remotos y la infraestructura corporativa.
 
-## 3.8 Conclusión del diseño
+## 3.8 Redundancia y alta disponibilidad
+
+### 3.8.1 Redundancia de conectividad
+### 3.8.2 Redundancia de firewall
+### 3.8.3 Redundancia de servidores
+### 3.8.4 Beneficios de la alta disponibilidad
+
+## 3.9 Conclusión del diseño
 
 La arquitectura propuesta proporciona una infraestructura segura, escalable y eficiente, alineada con las necesidades de TechMarbella Solutions S.L. y con las buenas prácticas de administración de sistemas. Este diseño servirá como base para la implementación detallada en el capítulo siguiente.
