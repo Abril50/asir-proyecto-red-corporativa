@@ -99,7 +99,7 @@ Almacenamiento en NAS o servidor dedicado.
 
   **3.4.1 Virtualización**
   
-    ### Virtualización de servicios
+   Virtualización de servicios
  
 Con el fin de optimizar recursos hardware y facilitar la gestión de la infraestructura, los servicios corporativos se desplegarán mediante virtualización.
  
