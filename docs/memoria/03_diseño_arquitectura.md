@@ -110,16 +110,20 @@ Permite registrar y analizar eventos relacionados con la seguridad de la infraes
 
  
 Con el fin de optimizar recursos hardware y facilitar la gestión de la infraestructura, los servicios corporativos se desplegarán mediante virtualización.
+
  
 La plataforma de virtualización permitirá ejecutar múltiples máquinas virtuales sobre un mismo servidor físico, reduciendo costes y simplificando las tareas de administración, mantenimiento y recuperación ante incidencias.
+
  
 Las máquinas virtuales previstas son:
+
  
 1 - Windows Server
 2 - Servidor Linux de monitorización
 3 - Servidor de copias de seguridad
 4 - Servidor de pruebas
- 
+
+ 
 La utilización de virtualización facilita además la escalabilidad futura de la infraestructura.
 
 ## 3.4.2 Monitorización y gestión de eventos
