@@ -97,6 +97,24 @@ Copias completas semanales.
 
 Almacenamiento en NAS o servidor dedicado.
 
+  **3.4.1 Virtualización**
+  
+    ### Virtualización de servicios
+ 
+Con el fin de optimizar recursos hardware y facilitar la gestión de la infraestructura, los servicios corporativos se desplegarán mediante virtualización.
+ 
+La plataforma de virtualización permitirá ejecutar múltiples máquinas virtuales sobre un mismo servidor físico, reduciendo costes y simplificando las tareas de administración, mantenimiento y recuperación ante incidencias.
+ 
+Las máquinas virtuales previstas son:
+ 
+- Windows Server
+- Servidor Linux de monitorización
+- Servidor de copias de seguridad
+- Servidor de pruebas
+ 
+La utilización de virtualización facilita además la escalabilidad futura de la infraestructura.
+  
+
 **3.5 Diagrama lógico de la arquitectura**
 
 El diagrama mostrará:
