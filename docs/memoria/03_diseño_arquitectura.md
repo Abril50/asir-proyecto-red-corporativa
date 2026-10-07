@@ -153,8 +153,6 @@ Todos los sistemas generarán registros de actividad susceptibles de ser analiza
 Mostrar más líneas
 
 ## 3.4.4 Sistema de almacenamiento
-
-### 3.4.4 Sistema de almacenamiento
  
 La infraestructura dispondrá de un sistema de almacenamiento centralizado destinado al almacenamiento de copias de seguridad, registros de auditoría y documentación corporativa.
  
