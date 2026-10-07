@@ -23,6 +23,16 @@ Estaciones de trabajo distribuidas en tres departamentos: Administración, Desar
 
 La arquitectura está diseñada para ser modular y escalable, permitiendo añadir nuevos servicios o departamentos sin reestructurar la red.
 
+## 3.3.1 Justificación del direccionamiento IP
+
+### Justificación del direccionamiento IP
+ 
+Se ha optado por utilizar direcciones privadas dentro del rango 192.168.0.0/16 debido a su simplicidad de administración y amplia compatibilidad con entornos empresariales.
+ 
+Cada VLAN dispone de una subred independiente de tipo /24, permitiendo una correcta segregación del tráfico y facilitando la gestión de los distintos departamentos de la empresa.
+ 
+Esta estructura permite ampliar la infraestructura en el futuro manteniendo una organización lógica y escalable.
+
 **3.2 Segmentación de red mediante VLANs**
 
 Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
@@ -53,51 +63,76 @@ La tabla de direccionamiento propuesta es:
 
 El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas de seguridad.
 
-**3.4 Componentes principales de la arquitectura**
+## 3.4 Componentes principales de la arquitectura
+ 
+### Firewall perimetral
+ 
+- Filtrado de tráfico entrante y saliente.
+- NAT y Port Forwarding.
+- VPN corporativa.
+- Control de acceso entre VLANs.
+ 
+### Switch gestionable
+ 
+- Creación y gestión de VLANs.
+- Trunking hacia el firewall.
+- QoS para priorizar tráfico crítico.
+ 
+### Servidor Windows Server
+ 
+- Active Directory Domain Services (AD DS).
+- Gestión centralizada de usuarios y grupos.
+- DNS y DHCP corporativos.
+- Servidor de archivos.
+- Aplicación de políticas mediante GPO.
+ 
+### Servidor Linux
+ 
+- IDS/IPS mediante Suricata.
+- Plataforma de monitorización.
+- Intranet corporativa.
+- Scripts de automatización.
+ 
+### Plataforma de monitorización y gestión de eventos
+ 
+- Monitorización de servidores y dispositivos de red.
+- Gestión y análisis de logs.
+- Generación de alertas.
+- Detección temprana de incidencias.
+ 
+**Herramientas previstas:**
+- Wazuh.
+- Zabbix.
+- Prometheus.
+ 
+### Plataforma de virtualización
+ 
+Con el fin de optimizar los recursos hardware y facilitar la administración de los sistemas, la infraestructura utilizará tecnología de virtualización.
+ 
+Las máquinas virtuales previstas son:
+ 
+- Windows Server.
+- Servidor Linux de monitorización.
+- Servidor de copias de seguridad.
+- Entorno de pruebas y laboratorio.
+ 
+### Sistema de copias de seguridad
+ 
+- Copias incrementales diarias.
+- Copias completas semanales.
+- Almacenamiento en NAS o servidor dedicado.
+- Verificación periódica de restauración.
+ 
+### Sistema de auditoría informática
+ 
+La infraestructura incorporará mecanismos de registro y auditoría que permitirán:
+ 
+- Registrar eventos de seguridad.
+- Supervisar accesos de usuarios.
+- Analizar incidencias.
+- Facilitar futuras auditorías de cumplimiento y seguridad.
 
-Firewall perimetral
-
-Filtrado de tráfico entrante y saliente.
-
-NAT y port forwarding.
-
-VPN corporativa.
-
-Control de acceso entre VLANs.
-
-Switch gestionable
-Creación y gestión de VLANs.
-
-Trunking hacia el firewall.
-
-QoS para priorizar tráfico crítico.
-
-Servidor Windows Server
-AD DS: gestión de usuarios y grupos.
-
-DNS/DHCP: servicios de red centralizados.
-
-Servidor de archivos con permisos basados en departamentos.
-
-GPOs para aplicar políticas de seguridad.
-
-Servidor Linux
-IDS/IPS (Suricata).
-
-Monitorización (Wazuh / Zabbix / Prometheus).
-
-Intranet corporativa.
-
-Scripts de automatización.
-
-Sistema de copias de seguridad
-Backups incrementales diarios.
-
-Copias completas semanales.
-
-Almacenamiento en NAS o servidor dedicado.
-
-  **3.4.1 Virtualización**
+   ## 3.4.1 Virtualización
   
 Virtualización de servicios. 
 
@@ -108,10 +143,10 @@ La plataforma de virtualización permitirá ejecutar múltiples máquinas virtua
  
 Las máquinas virtuales previstas son:
  
-- Windows Server
-- Servidor Linux de monitorización
-- Servidor de copias de seguridad
-- Servidor de pruebas
+1 - Windows Server
+2 - Servidor Linux de monitorización
+3 - Servidor de copias de seguridad
+4 - Servidor de pruebas
  
 La utilización de virtualización facilita además la escalabilidad futura de la infraestructura.
 
