@@ -5,8 +5,6 @@ El diseño de la arquitectura de red corporativa para TechMarbella Solutions S.L
 
 La infraestructura se compone de:
 
-La infraestructura se compone de:
-
  
 • Dos firewalls perimetrales configurados en alta disponibilidad para garantizar la continuidad del servicio ante fallos.
 
