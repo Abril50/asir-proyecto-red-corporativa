@@ -119,8 +119,11 @@ Las máquinas virtuales previstas son:
 
  
 1 - Windows Server
+
 2 - Servidor Linux de monitorización
+
 3 - Servidor de copias de seguridad
+
 4 - Servidor de pruebas
 
  
