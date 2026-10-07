@@ -99,8 +99,9 @@ Almacenamiento en NAS o servidor dedicado.
 
   **3.4.1 Virtualización**
   
-Virtualización de servicios.
- 
+Virtualización de servicios. 
+
+ 
 Con el fin de optimizar recursos hardware y facilitar la gestión de la infraestructura, los servicios corporativos se desplegarán mediante virtualización.
  
 La plataforma de virtualización permitirá ejecutar múltiples máquinas virtuales sobre un mismo servidor físico, reduciendo costes y simplificando las tareas de administración, mantenimiento y recuperación ante incidencias.
@@ -113,6 +114,31 @@ Las máquinas virtuales previstas son:
 - Servidor de pruebas
  
 La utilización de virtualización facilita además la escalabilidad futura de la infraestructura.
+
+**3.4.2 Monitorización y gestión de eventos**
+
+Sistema de monitorización y gestión de eventos
+
+La infraestructura contará con una plataforma centralizada de monitorización que permitirá supervisar el estado de los servidores, dispositivos de red y servicios corporativos.
+ 
+Las principales funciones serán:
+ 
+- Supervisión de CPU, memoria y almacenamiento.
+- Monitorización de disponibilidad de servicios.
+- Generación de alertas ante incidencias.
+- Registro de eventos y análisis de logs.
+- Detección temprana de posibles fallos.
+ 
+Para ello se utilizarán herramientas como Wazuh, Zabbix o Prometheus.
+
+**3.4.3 Auditoría informática**
+
+Integración de la auditoría informática
+ 
+La arquitectura ha sido diseñada considerando la futura realización de auditorías de seguridad y cumplimiento.
+ 
+Todos los sistemas generarán registros de actividad susceptibles de ser analizados durante el proceso de auditoría informática, permitiendo evaluar la seguridad de la infraestructura y el cumplimiento de las políticas corporativas.
+Mostrar más líneas
   
 
 **3.5 Diagrama lógico de la arquitectura**
@@ -134,6 +160,21 @@ VPN
 IDS/IPS
 
 Sistema de backups
+
+**3.5.1 Diagrama físico de la infraestructura**
+
+
+Además del diagrama lógico, se elaborará un diagrama físico que representará la distribución de los principales elementos hardware de la infraestructura:
+ 
+- Firewall
+- Switch gestionable
+- Servidores
+- Equipos cliente
+- Puntos de acceso
+- Almacenamiento de copias de seguridad
+ 
+Este diagrama facilitará la comprensión de la arquitectura y servirá como documentación técnica para futuras tareas de mantenimiento.
+
 
 **3.6 Políticas de acceso entre VLANs**
 
@@ -160,6 +201,27 @@ Autenticación centralizada mediante AD DS.
 Copias de seguridad automatizadas.
 
 VPN con cifrado fuerte.
+
+**3.7.1 Política de copias de seguridad**
+
+Política de copias de seguridad
+ 
+Para garantizar la disponibilidad y recuperación de la información se implementará una estrategia de copias de seguridad basada en:
+ 
+- Copias incrementales diarias.
+- Copias completas semanales.
+- Verificación periódica de restauración.
+- Almacenamiento seguro de los respaldos.
+ 
+Esta política permitirá minimizar la pérdida de datos ante fallos técnicos o incidentes de seguridad.
+
+**3.7.2 Acceso remoto seguro**
+
+Acceso remoto seguro
+ 
+Los usuarios autorizados podrán acceder a los recursos corporativos mediante una VPN cifrada.
+ 
+Este sistema permitirá el teletrabajo manteniendo la confidencialidad e integridad de las comunicaciones entre los usuarios remotos y la infraestructura corporativa.
 
 **3.8 Conclusión del diseño**
 
