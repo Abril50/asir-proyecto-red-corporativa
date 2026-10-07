@@ -1,7 +1,7 @@
-**3. Diseño de la arquitectura**
+## 3. Diseño de la arquitectura
 El diseño de la arquitectura de red corporativa para TechMarbella Solutions S.L. se basa en los requisitos definidos en el capítulo anterior y en las buenas prácticas de administración de sistemas y seguridad. La solución propuesta busca garantizar la disponibilidad, seguridad, escalabilidad y eficiencia de los servicios corporativos.
 
-**3.1 Visión general de la arquitectura**
+## 3.1 Visión general de la arquitectura.
 
 La infraestructura se compone de:
 
@@ -23,17 +23,7 @@ Estaciones de trabajo distribuidas en tres departamentos: Administración, Desar
 
 La arquitectura está diseñada para ser modular y escalable, permitiendo añadir nuevos servicios o departamentos sin reestructurar la red.
 
-## 3.3.1 Justificación del direccionamiento IP
-
-### Justificación del direccionamiento IP
- 
-Se ha optado por utilizar direcciones privadas dentro del rango 192.168.0.0/16 debido a su simplicidad de administración y amplia compatibilidad con entornos empresariales.
- 
-Cada VLAN dispone de una subred independiente de tipo /24, permitiendo una correcta segregación del tráfico y facilitando la gestión de los distintos departamentos de la empresa.
- 
-Esta estructura permite ampliar la infraestructura en el futuro manteniendo una organización lógica y escalable.
-
-**3.2 Segmentación de red mediante VLANs**
+## 3.2 Segmentación de red mediante VLANs
 
 Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 
@@ -48,7 +38,7 @@ Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 
 Cada VLAN tiene su propio rango de direcciones IP y políticas de acceso específicas.
 
-**3.3 Tabla de direccionamiento IP**
+## 3.3 Tabla de direccionamiento IP
 
 La tabla de direccionamiento propuesta es:
 
@@ -62,6 +52,16 @@ La tabla de direccionamiento propuesta es:
 | 60   | 192.168.60.0/24 | 192.168.60.1 | 255.255.255.0 |
 
 El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas de seguridad.
+
+## 3.3.1 Justificación del direccionamiento IP
+
+### Justificación del direccionamiento IP
+ 
+Se ha optado por utilizar direcciones privadas dentro del rango 192.168.0.0/16 debido a su simplicidad de administración y amplia compatibilidad con entornos empresariales.
+ 
+Cada VLAN dispone de una subred independiente de tipo /24, permitiendo una correcta segregación del tráfico y facilitando la gestión de los distintos departamentos de la empresa.
+ 
+Esta estructura permite ampliar la infraestructura en el futuro manteniendo una organización lógica y escalable.
 
 ## 3.4 Componentes principales de la arquitectura
  
@@ -100,7 +100,7 @@ El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas d
 - Generación de alertas.
 - Detección temprana de incidencias.
  
-**Herramientas previstas:**
+### Herramientas previstas:
 - Wazuh.
 - Zabbix.
 - Prometheus.
@@ -132,9 +132,9 @@ La infraestructura incorporará mecanismos de registro y auditoría que permitir
 - Analizar incidencias.
 - Facilitar futuras auditorías de cumplimiento y seguridad.
 
-   ## 3.4.1 Virtualización
+## 3.4.1 Virtualización
   
-Virtualización de servicios. 
+### Virtualización de servicios. 
 
  
 Con el fin de optimizar recursos hardware y facilitar la gestión de la infraestructura, los servicios corporativos se desplegarán mediante virtualización.
@@ -150,9 +150,9 @@ Las máquinas virtuales previstas son:
  
 La utilización de virtualización facilita además la escalabilidad futura de la infraestructura.
 
-**3.4.2 Monitorización y gestión de eventos**
+## 3.4.2 Monitorización y gestión de eventos
 
-Sistema de monitorización y gestión de eventos
+### Sistema de monitorización y gestión de eventos
 
 La infraestructura contará con una plataforma centralizada de monitorización que permitirá supervisar el estado de los servidores, dispositivos de red y servicios corporativos.
  
@@ -166,9 +166,9 @@ Las principales funciones serán:
  
 Para ello se utilizarán herramientas como Wazuh, Zabbix o Prometheus.
 
-**3.4.3 Auditoría informática**
+## 3.4.3 Auditoría informática 
 
-Integración de la auditoría informática
+### Integración de la auditoría informática
  
 La arquitectura ha sido diseñada considerando la futura realización de auditorías de seguridad y cumplimiento.
  
@@ -176,9 +176,9 @@ Todos los sistemas generarán registros de actividad susceptibles de ser analiza
 Mostrar más líneas
   
 
-**3.5 Diagrama lógico de la arquitectura**
+## 3.5 Diagrama lógico de la arquitectura
 
-El diagrama mostrará:
+### El diagrama mostrará:
 
 Firewall
 
@@ -196,8 +196,7 @@ IDS/IPS
 
 Sistema de backups
 
-**3.5.1 Diagrama físico de la infraestructura**
-
+## 3.5.1 Diagrama físico de la infraestructura
 
 Además del diagrama lógico, se elaborará un diagrama físico que representará la distribución de los principales elementos hardware de la infraestructura:
  
@@ -211,7 +210,7 @@ Además del diagrama lógico, se elaborará un diagrama físico que representar�
 Este diagrama facilitará la comprensión de la arquitectura y servirá como documentación técnica para futuras tareas de mantenimiento.
 
 
-**3.6 Políticas de acceso entre VLANs**
+## 3.6 Políticas de acceso entre VLANs
 
 Administración puede acceder a Servidores.
 
@@ -223,7 +222,7 @@ Invitados no tienen acceso a recursos internos.
 
 La VLAN de servidores está aislada excepto para tráfico autorizado.
 
-**3.7 Consideraciones de seguridad**
+## 3.7 Consideraciones de seguridad
 
 Segmentación estricta entre departamentos.
 
@@ -237,7 +236,7 @@ Copias de seguridad automatizadas.
 
 VPN con cifrado fuerte.
 
-**3.7.1 Política de copias de seguridad**
+## 3.7.1 Política de copias de seguridad
 
 Política de copias de seguridad
  
@@ -250,7 +249,7 @@ Para garantizar la disponibilidad y recuperación de la información se implemen
  
 Esta política permitirá minimizar la pérdida de datos ante fallos técnicos o incidentes de seguridad.
 
-**3.7.2 Acceso remoto seguro**
+## 3.7.2 Acceso remoto seguro
 
 Acceso remoto seguro
  
@@ -258,6 +257,6 @@ Los usuarios autorizados podrán acceder a los recursos corporativos mediante un
  
 Este sistema permitirá el teletrabajo manteniendo la confidencialidad e integridad de las comunicaciones entre los usuarios remotos y la infraestructura corporativa.
 
-**3.8 Conclusión del diseño**
+## 3.8 Conclusión del diseño
 
 La arquitectura propuesta proporciona una infraestructura segura, escalable y eficiente, alineada con las necesidades de TechMarbella Solutions S.L. y con las buenas prácticas de administración de sistemas. Este diseño servirá como base para la implementación detallada en el capítulo siguiente.
