@@ -5,35 +5,30 @@ El diseño de la arquitectura de red corporativa para TechMarbella Solutions S.L
 
 La infraestructura se compone de:
 
-Dos firewalls perimetrales configurados en alta disponibilidad para garantizar la continuidad del servicio ante fallos.
-
-Un switch gestionable que permite la segmentación mediante VLANs.
-
-Un servidor Windows Server para servicios corporativos (AD DS, DNS, DHCP, servidor de archivos y aplicación de políticas mediante GPO).
-
+La infraestructura se compone de:
  
-Un servidor Linux para servicios de monitorización, gestión de eventos, IDS/IPS, intranet corporativa y automatización de tareas.
-
+• Dos firewalls perimetrales configurados en alta disponibilidad para garantizar la continuidad del servicio ante fallos.
  
-Una plataforma de virtualización que permita desplegar y administrar los diferentes servidores de forma centralizada.
-
+• Un switch gestionable que permite la segmentación mediante VLANs.
  
-Una plataforma de monitorización y análisis de eventos para la supervisión continua de la infraestructura.
-
+• Un servidor Windows Server para servicios corporativos (AD DS, DNS, DHCP, servidor de archivos y aplicación de políticas mediante GPO).
  
-Un sistema de copias de seguridad automatizado para garantizar la recuperación de la información ante incidencias.
-
+• Un servidor Linux para servicios de monitorización, gestión de eventos, IDS/IPS, intranet corporativa y automatización de tareas.
  
-Un sistema de auditoría informática basado en el análisis de registros y eventos de seguridad.
+• Una plataforma de virtualización que permita desplegar y administrar los diferentes servidores de forma centralizada.
+ 
+• Una plataforma de monitorización y análisis de eventos para la supervisión continua de la infraestructura.
+ 
+• Un sistema de almacenamiento centralizado destinado a copias de seguridad, registros de eventos y documentación corporativa.
+ 
+• Un sistema de copias de seguridad automatizado para garantizar la recuperación de la información ante incidencias.
+ 
+• Un sistema de auditoría informática basado en el análisis de registros y eventos de seguridad.
+ 
+• Una VPN corporativa para acceso remoto seguro.
+ 
+• Estaciones de trabajo distribuidas en tres departamentos: Administración, Desarrollo y Soporte Técnico.
 
-
-Una VPN corporativa para acceso remoto seguro.
-
-Una intranet corporativa alojada en el servidor Linux.
-
-Estaciones de trabajo distribuidas en tres departamentos: Administración, Desarrollo y Soporte Técnico.
-
-La arquitectura está diseñada para ser modular y escalable, permitiendo añadir nuevos servicios o departamentos sin reestructurar la red.
 
 ## 3.2 Segmentación de red mediante VLANs
 
@@ -79,70 +74,35 @@ Esta estructura permite ampliar la infraestructura en el futuro manteniendo una 
  
 ### Firewall perimetral
  
-- Filtrado de tráfico entrante y saliente.
-- NAT y Port Forwarding.
-- VPN corporativa.
-- Control de acceso entre VLANs.
+Responsable de proteger la red corporativa mediante filtrado de tráfico, NAT, VPN y control de acceso entre VLANs.
  
 ### Switch gestionable
  
-- Creación y gestión de VLANs.
-- Trunking hacia el firewall.
-- QoS para priorizar tráfico crítico.
+Permite la segmentación de la red mediante VLANs y la conexión de los distintos segmentos de la infraestructura.
  
 ### Servidor Windows Server
  
-- Active Directory Domain Services (AD DS).
-- Gestión centralizada de usuarios y grupos.
-- DNS y DHCP corporativos.
-- Servidor de archivos.
-- Aplicación de políticas mediante GPO.
+Proporciona servicios de directorio activo, DNS, DHCP, servidor de archivos y aplicación de políticas de grupo.
  
 ### Servidor Linux
  
-- IDS/IPS mediante Suricata.
-- Plataforma de monitorización.
-- Intranet corporativa.
-- Scripts de automatización.
- 
-### Plataforma de monitorización y gestión de eventos
- 
-- Monitorización de servidores y dispositivos de red.
-- Gestión y análisis de logs.
-- Generación de alertas.
-- Detección temprana de incidencias.
- 
-### Herramientas previstas:
-- Wazuh.
-- Zabbix.
-- Prometheus.
+Aloja servicios de seguridad, monitorización, automatización e intranet corporativa.
  
 ### Plataforma de virtualización
  
-Con el fin de optimizar los recursos hardware y facilitar la administración de los sistemas, la infraestructura utilizará tecnología de virtualización.
+Permite la ejecución de múltiples máquinas virtuales sobre una infraestructura física común.
  
-Las máquinas virtuales previstas son:
+### Sistema de monitorización
  
-- Windows Server.
-- Servidor Linux de monitorización.
-- Servidor de copias de seguridad.
-- Entorno de pruebas y laboratorio.
+Facilita la supervisión continua de servidores, dispositivos de red y aplicaciones.
  
 ### Sistema de copias de seguridad
  
-- Copias incrementales diarias.
-- Copias completas semanales.
-- Almacenamiento en NAS o servidor dedicado.
-- Verificación periódica de restauración.
+Garantiza la disponibilidad y recuperación de la información.
  
 ### Sistema de auditoría informática
  
-La infraestructura incorporará mecanismos de registro y auditoría que permitirán:
- 
-- Registrar eventos de seguridad.
-- Supervisar accesos de usuarios.
-- Analizar incidencias.
-- Facilitar futuras auditorías de cumplimiento y seguridad.
+Permite registrar y analizar eventos relacionados con la seguridad de la infraestructura.
 
 ## 3.4.1 Virtualización
   
@@ -186,7 +146,22 @@ La arquitectura ha sido diseñada considerando la futura realización de auditor
  
 Todos los sistemas generarán registros de actividad susceptibles de ser analizados durante el proceso de auditoría informática, permitiendo evaluar la seguridad de la infraestructura y el cumplimiento de las políticas corporativas.
 Mostrar más líneas
-  
+
+## 3.4.4 Sistema de almacenamiento
+
+### 3.4.4 Sistema de almacenamiento
+ 
+La infraestructura dispondrá de un sistema de almacenamiento centralizado destinado al almacenamiento de copias de seguridad, registros de auditoría y documentación corporativa.
+ 
+Sus funciones principales serán:
+ 
+- Almacenamiento de copias de seguridad.
+- Conservación de registros de eventos.
+- Compartición de recursos corporativos.
+- Almacenamiento de documentación técnica.
+- Soporte a los procesos de recuperación ante desastres.
+ 
+Este sistema podrá implementarse mediante un NAS corporativo o un servidor de almacenamiento dedicado.
 
 ## 3.5 Diagrama lógico de la arquitectura
 
