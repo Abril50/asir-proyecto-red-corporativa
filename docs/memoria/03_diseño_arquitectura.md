@@ -10,16 +10,22 @@ Dos firewalls perimetrales configurados en alta disponibilidad para garantizar l
 Un switch gestionable que permite la segmentación mediante VLANs.
 
 Un servidor Windows Server para servicios corporativos (AD DS, DNS, DHCP, servidor de archivos y aplicación de políticas mediante GPO).
+
  
 Un servidor Linux para servicios de monitorización, gestión de eventos, IDS/IPS, intranet corporativa y automatización de tareas.
+
  
 Una plataforma de virtualización que permita desplegar y administrar los diferentes servidores de forma centralizada.
+
  
 Una plataforma de monitorización y análisis de eventos para la supervisión continua de la infraestructura.
+
  
 Un sistema de copias de seguridad automatizado para garantizar la recuperación de la información ante incidencias.
+
  
 Un sistema de auditoría informática basado en el análisis de registros y eventos de seguridad.
+
 
 Una VPN corporativa para acceso remoto seguro.
 
