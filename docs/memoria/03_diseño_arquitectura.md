@@ -131,6 +131,7 @@ Este diagrama facilitará la comprensión de la arquitectura y servirá como doc
 La simulación de red se realizará mediante GNS3, desplegado sobre una máquina virtual alojada en Proxmox VE.
 Con el fin de validar la arquitectura propuesta antes de su implantación, se utilizará la plataforma GNS3 para simular la infraestructura corporativa.
 Las pruebas realizadas en GNS3 servirán como evidencia de validación de la infraestructura propuesta y formarán parte de la fase de pruebas descrita en capítulos posteriores.
+
 El entorno permitirá verificar:
 
 - Conectividad entre VLANs.
