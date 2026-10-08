@@ -92,9 +92,11 @@ Permite registrar y analizar eventos relacionados con la seguridad de la infraes
 
 ## 3.4.1 Virtualización
   
-### Virtualización de servicios. 
+### Virtualización de servicios 
 
 La plataforma de virtualización seleccionada para el proyecto será Proxmox VE, solución de código abierto que permitirá desplegar y administrar las diferentes máquinas virtuales que forman parte de la infraestructura corporativa.
+
+Proxmox VE permitirá la gestión centralizada de máquinas virtuales, snapshots, copias de seguridad y restauración de servicios críticos.
  
 Con el fin de optimizar recursos hardware y facilitar la gestión de la infraestructura, los servicios corporativos se desplegarán mediante virtualización.
 
@@ -149,7 +151,7 @@ Este sistema podrá implementarse mediante un NAS corporativo o un servidor de a
 
 ## 3.5 Diagrama lógico de la arquitectura
 
-### El diagrama mostrará:
+### Elementos representados en el diagrama
 
 - Firewall
 - Switch gestionable
@@ -175,7 +177,7 @@ Este diagrama facilitará la comprensión de la arquitectura y servirá como doc
 
 ## 3.5.2 Entorno de simulación
 
-La simulación de red se realizará mediante GNS3, ejecutado sobre una máquina virtual dentro del entorno Proxmox VE.
+La simulación de red se realizará mediante GNS3, desplegado sobre una máquina virtual alojada en Proxmox VE.
 
 Con el fin de validar la arquitectura propuesta antes de su implantación, se utilizará la plataforma GNS3 para simular la infraestructura corporativa.
 
