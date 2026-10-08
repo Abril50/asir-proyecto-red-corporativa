@@ -26,7 +26,7 @@ Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 Cada VLAN tiene su propio rango de direcciones IP y políticas de acceso específicas.
 ## 3.3 Tabla de direccionamiento IP
 La tabla de direccionamiento propuesta es:
-| VLAN | Rango IP | Gateway | Máscara |
+| VLAN | Red | Gateway | Máscara |
 |------|----------|---------|---------|
 | 10   | 192.168.10.0/24 | 192.168.10.1 | 255.255.255.0 |
 | 20   | 192.168.20.0/24 | 192.168.20.1 | 255.255.255.0 |
@@ -122,7 +122,7 @@ Además del diagrama lógico, se elaborará un diagrama físico que representar�
  
 Este diagrama facilitará la comprensión de la arquitectura y servirá como documentación técnica para futuras tareas de mantenimiento.
 ## 3.5.2 Entorno de simulación
-La simulación de red se realizará mediante GNS3, desplegado sobre una máquina virtual alojada en Proxmox VE.
+La simulación de la infraestructura de red se realizará mediante GNS3, desplegado sobre una máquina virtual alojada en Proxmox VE.
 Con el fin de validar la arquitectura propuesta antes de su implantación, se utilizará la plataforma GNS3 para simular la infraestructura corporativa.
 Las pruebas realizadas en GNS3 servirán como evidencia de validación de la infraestructura propuesta y formarán parte de la fase de pruebas descrita en capítulos posteriores.
 
