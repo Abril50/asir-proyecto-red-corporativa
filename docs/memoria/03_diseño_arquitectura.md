@@ -23,6 +23,7 @@ Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 | Servidores                     | 40   | Segmento aislado para servicios críticos         |
 | Gestión / Administración de red| 50   | Acceso restringido para administradores          |
 | Invitados                      | 60   | Red aislada para dispositivos externos           |
+
 Cada VLAN tiene su propio rango de direcciones IP y políticas de acceso específicas.
 ## 3.3 Tabla de direccionamiento IP
 La tabla de direccionamiento propuesta es:
@@ -34,6 +35,7 @@ La tabla de direccionamiento propuesta es:
 | 40   | 192.168.40.0/24 | 192.168.40.1 | 255.255.255.0 |
 | 50   | 192.168.50.0/24 | 192.168.50.1 | 255.255.255.0 |
 | 60   | 192.168.60.0/24 | 192.168.60.1 | 255.255.255.0 |
+
 El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas de seguridad.
 ## 3.3.1 Justificación del direccionamiento IP
 Se ha optado por utilizar direcciones privadas dentro del rango 192.168.0.0/16 debido a su simplicidad de administración y amplia compatibilidad con entornos empresariales.
