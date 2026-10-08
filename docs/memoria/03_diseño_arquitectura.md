@@ -65,7 +65,7 @@ La plataforma de virtualización seleccionada para el proyecto será Proxmox VE,
 Proxmox VE permitirá la gestión centralizada de máquinas virtuales, snapshots, copias de seguridad y restauración de servicios críticos.
 Con el fin de optimizar recursos hardware y facilitar la gestión de la infraestructura, los servicios corporativos se desplegarán mediante virtualización.
 La plataforma de virtualización permitirá ejecutar múltiples máquinas virtuales sobre un mismo servidor físico, reduciendo costes y simplificando las tareas de administración, mantenimiento y recuperación ante incidencias.
- 
+
 Las máquinas virtuales previstas son:
 - Windows Server.
 - Servidor Linux de monitorización.
