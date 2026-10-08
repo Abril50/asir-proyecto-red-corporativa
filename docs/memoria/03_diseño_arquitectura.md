@@ -138,8 +138,7 @@ Las principales funciones serán:
 - Generación de alertas ante incidencias.
 - Registro de eventos y análisis de logs.
 - Detección temprana de posibles fallos.
-  
- 
+   
 Para ello se utilizarán herramientas como Wazuh, Zabbix o Prometheus.
 
 ## 3.4.3 Auditoría informática 
