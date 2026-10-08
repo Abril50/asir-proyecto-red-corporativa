@@ -199,6 +199,20 @@ Además del diagrama lógico, se elaborará un diagrama físico que representar�
  
 Este diagrama facilitará la comprensión de la arquitectura y servirá como documentación técnica para futuras tareas de mantenimiento.
 
+## 3.5.2 Entorno de simulación
+
+Con el fin de validar la arquitectura propuesta antes de su implantación, se utilizará la plataforma GNS3 para simular la infraestructura corporativa.
+
+El entorno permitirá verificar:
+
+- Conectividad entre VLANs.
+- Funcionamiento de los servicios corporativos.
+- Políticas de seguridad.
+- Redundancia de firewall.
+- Acceso remoto mediante VPN.
+- Monitorización y generación de eventos.
+
+La utilización de GNS3 facilita la realización de pruebas sin necesidad de disponer de equipamiento físico completo.
 
 ## 3.6 Políticas de acceso entre VLANs
 
@@ -250,9 +264,25 @@ Este sistema permitirá el teletrabajo manteniendo la confidencialidad e integri
 ## 3.8 Redundancia y alta disponibilidad
 
 ### 3.8.1 Redundancia de conectividad
+
+La empresa dispondrá de una conexión principal y una conexión secundaria a Internet. En caso de fallo de la conexión principal, el tráfico podrá redirigirse automáticamente a la conexión de respaldo.
+
 ### 3.8.2 Redundancia de firewall
+
+La infraestructura contempla dos firewalls en alta disponibilidad, permitiendo que uno asuma las funciones del otro en caso de incidencia.
+
 ### 3.8.3 Redundancia de servidores
+
+Los servicios críticos estarán virtualizados y respaldados mediante copias de seguridad periódicas, facilitando su recuperación ante fallos.
+
 ### 3.8.4 Beneficios de la alta disponibilidad
+
+Los mecanismos de redundancia permitirán:
+
+- Reducir los tiempos de inactividad.
+- Mejorar la disponibilidad de los servicios.
+- Incrementar la resiliencia de la infraestructura.
+- Garantizar la continuidad operativa de la empresa.
 
 ## 3.9 Conclusión del diseño
 
