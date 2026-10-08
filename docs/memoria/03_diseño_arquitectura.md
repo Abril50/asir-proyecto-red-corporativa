@@ -67,7 +67,6 @@ Con el fin de optimizar recursos hardware y facilitar la gestión de la infraest
 La plataforma de virtualización permitirá ejecutar múltiples máquinas virtuales sobre un mismo servidor físico, reduciendo costes y simplificando las tareas de administración, mantenimiento y recuperación ante incidencias.
  
 Las máquinas virtuales previstas son:
-
 - Windows Server.
 - Servidor Linux de monitorización.
 - Servidor de copias de seguridad.
