@@ -23,7 +23,6 @@ Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 | Servidores                     | 40   | Segmento aislado para servicios críticos         |
 | Gestión / Administración de red| 50   | Acceso restringido para administradores          |
 | Invitados                      | 60   | Red aislada para dispositivos externos           |
-
 Cada VLAN tiene su propio rango de direcciones IP y políticas de acceso específicas.
 ## 3.3 Tabla de direccionamiento IP
 La tabla de direccionamiento propuesta es:
@@ -35,7 +34,6 @@ La tabla de direccionamiento propuesta es:
 | 40   | 192.168.40.0/24 | 192.168.40.1 | 255.255.255.0 |
 | 50   | 192.168.50.0/24 | 192.168.50.1 | 255.255.255.0 |
 | 60   | 192.168.60.0/24 | 192.168.60.1 | 255.255.255.0 |
-
 El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas de seguridad.
 ## 3.3.1 Justificación del direccionamiento IP
 Se ha optado por utilizar direcciones privadas dentro del rango 192.168.0.0/16 debido a su simplicidad de administración y amplia compatibilidad con entornos empresariales.
@@ -62,15 +60,11 @@ Garantiza la disponibilidad y recuperación de la información.
 Permite registrar y analizar eventos relacionados con la seguridad de la infraestructura.
 ## 3.4.1 Virtualización de servicios 
 La plataforma de virtualización seleccionada para el proyecto será Proxmox VE, solución de código abierto que permitirá desplegar y administrar las diferentes máquinas virtuales que forman parte de la infraestructura corporativa.
-
 Proxmox VE permitirá la gestión centralizada de máquinas virtuales, snapshots, copias de seguridad y restauración de servicios críticos.
- 
 Con el fin de optimizar recursos hardware y facilitar la gestión de la infraestructura, los servicios corporativos se desplegarán mediante virtualización.
-
 La plataforma de virtualización permitirá ejecutar múltiples máquinas virtuales sobre un mismo servidor físico, reduciendo costes y simplificando las tareas de administración, mantenimiento y recuperación ante incidencias.
  
 Las máquinas virtuales previstas son:
-
 - Windows Server.
 - Servidor Linux de monitorización.
 - Servidor de copias de seguridad.
@@ -133,7 +127,6 @@ Con el fin de validar la arquitectura propuesta antes de su implantación, se ut
 Las pruebas realizadas en GNS3 servirán como evidencia de validación de la infraestructura propuesta y formarán parte de la fase de pruebas descrita en capítulos posteriores.
 
 El entorno permitirá verificar:
-
 - Conectividad entre VLANs.
 - Funcionamiento de los servicios corporativos.
 - Políticas de seguridad.
@@ -181,7 +174,6 @@ La infraestructura contempla dos firewalls en alta disponibilidad, permitiendo q
 Los servicios críticos estarán virtualizados y respaldados mediante copias de seguridad periódicas y snapshots de Proxmox VE, facilitando su recuperación ante fallos y reduciendo el tiempo de recuperación ante incidencias.
 ### 3.8.4 Beneficios de la alta disponibilidad
 Los mecanismos de redundancia permitirán:
-
 - Reducir los tiempos de inactividad.
 - Mejorar la disponibilidad de los servicios.
 - Incrementar la resiliencia de la infraestructura.
