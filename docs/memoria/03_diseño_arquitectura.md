@@ -150,7 +150,6 @@ Para ello se utilizarán herramientas como Wazuh, Zabbix o Prometheus.
 La arquitectura ha sido diseñada considerando la futura realización de auditorías de seguridad y cumplimiento.
  
 Todos los sistemas generarán registros de actividad susceptibles de ser analizados durante el proceso de auditoría informática, permitiendo evaluar la seguridad de la infraestructura y el cumplimiento de las políticas corporativas.
-Mostrar más líneas
 
 ## 3.4.4 Sistema de almacenamiento
  
