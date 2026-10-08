@@ -175,7 +175,7 @@ Este diagrama facilitará la comprensión de la arquitectura y servirá como doc
 
 ## 3.5.2 Entorno de simulación
 
-La simulación de red se realizará mediante GNS3, ejecutando sobre una máquina virtual dentro del entorno Proxmox VE.
+La simulación de red se realizará mediante GNS3, ejecutado sobre una máquina virtual dentro del entorno Proxmox VE.
 
 Con el fin de validar la arquitectura propuesta antes de su implantación, se utilizará la plataforma GNS3 para simular la infraestructura corporativa.
 
