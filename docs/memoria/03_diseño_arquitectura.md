@@ -44,7 +44,6 @@ La tabla de direccionamiento propuesta es:
 El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas de seguridad.
 
 ## 3.3.1 Justificación del direccionamiento IP
-
 ### Justificación del direccionamiento IP 
 Se ha optado por utilizar direcciones privadas dentro del rango 192.168.0.0/16 debido a su simplicidad de administración y amplia compatibilidad con entornos empresariales.
  
@@ -52,8 +51,7 @@ Cada VLAN dispone de una subred independiente de tipo /24, permitiendo una corre
  
 Esta estructura permite ampliar la infraestructura en el futuro manteniendo una organización lógica y escalable.
 
-## 3.4 Componentes principales de la arquitectura
- 
+## 3.4 Componentes principales de la arquitectura 
 ### Firewall perimetral 
 Responsable de proteger la red corporativa mediante filtrado de tráfico, NAT, VPN y control de acceso entre VLANs. 
 ### Switch gestionable
@@ -71,8 +69,7 @@ Garantiza la disponibilidad y recuperación de la información.
 ### Sistema de auditoría informática
 Permite registrar y analizar eventos relacionados con la seguridad de la infraestructura.
 
-## 3.4.1 Virtualización
-  
+## 3.4.1 Virtualización  
 ### Virtualización de servicios 
 La plataforma de virtualización seleccionada para el proyecto será Proxmox VE, solución de código abierto que permitirá desplegar y administrar las diferentes máquinas virtuales que forman parte de la infraestructura corporativa.
 
@@ -92,7 +89,6 @@ Las máquinas virtuales previstas son:
 La utilización de virtualización facilita además la escalabilidad futura de la infraestructura.
 
 ## 3.4.2 Monitorización y gestión de eventos
-
 ### Sistema de monitorización y gestión de eventos
 La infraestructura contará con una plataforma centralizada de monitorización que permitirá supervisar el estado de los servidores, dispositivos de red y servicios corporativos.
  
@@ -107,7 +103,6 @@ Las principales funciones serán:
 Para ello se utilizarán herramientas como Wazuh, Zabbix o Prometheus.
 
 ## 3.4.3 Auditoría informática 
-
 ### Integración de la auditoría informática 
 La arquitectura ha sido diseñada considerando la futura realización de auditorías de seguridad y cumplimiento.
  
@@ -127,7 +122,6 @@ Sus funciones principales serán:
 Este sistema podrá implementarse mediante un NAS corporativo o un servidor de almacenamiento dedicado.
 
 ## 3.5 Diagrama lógico de la arquitectura
-
 ### Elementos representados en el diagrama
 - Firewall
 - Switch gestionable
@@ -201,7 +195,6 @@ Los usuarios autorizados podrán acceder a los recursos corporativos mediante un
 Este sistema permitirá el teletrabajo manteniendo la confidencialidad e integridad de las comunicaciones entre los usuarios remotos y la infraestructura corporativa.
 
 ## 3.8 Redundancia y alta disponibilidad
-
 ### 3.8.1 Redundancia de conectividad
 La empresa dispondrá de una conexión principal y una conexión secundaria a Internet. En caso de fallo de la conexión principal, el tráfico podrá redirigirse automáticamente a la conexión de respaldo.
 
