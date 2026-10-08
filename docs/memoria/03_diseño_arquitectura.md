@@ -76,8 +76,7 @@ La utilización de virtualización facilita además la escalabilidad futura de l
 ## 3.4.2 Monitorización y gestión de eventos
 La infraestructura contará con una plataforma centralizada de monitorización que permitirá supervisar el estado de los servidores, dispositivos de red y servicios corporativos.
  
-Las principales funciones serán:
- 
+Las principales funciones serán: 
 - Supervisión de CPU, memoria y almacenamiento.
 - Monitorización de disponibilidad de servicios.
 - Generación de alertas ante incidencias.
