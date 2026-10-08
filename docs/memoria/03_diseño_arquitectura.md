@@ -4,7 +4,7 @@ El diseño de la arquitectura de red corporativa para TechMarbella Solutions S.L
 ## 3.1 Visión general de la arquitectura.
 
 La infraestructura se compone de:
- 
+
 - Dos firewalls perimetrales configurados en alta disponibilidad para garantizar la continuidad del servicio ante fallos.
  
 - Un switch gestionable que permite la segmentación mediante VLANs.
@@ -114,9 +114,6 @@ La plataforma de virtualización permitirá ejecutar múltiples máquinas virtua
  
 Las máquinas virtuales previstas son:
 
- 
-Las máquinas virtuales previstas son:
-
 - Windows Server.
 - Servidor Linux de monitorización.
 - Servidor de copias de seguridad.
@@ -167,21 +164,14 @@ Este sistema podrá implementarse mediante un NAS corporativo o un servidor de a
 
 ### El diagrama mostrará:
 
-Firewall
-
-Switch gestionable
-
-VLANs
-
-Servidores
-
-Estaciones de trabajo
-
-VPN
-
-IDS/IPS
-
-Sistema de backups
+- Firewall
+- Switch gestionable
+- VLANs
+- Servidores
+- Estaciones de trabajo
+- VPN
+- IDS/IPS
+- Sistema de backups
 
 ## 3.5.1 Diagrama físico de la infraestructura
 
@@ -213,29 +203,20 @@ La utilización de GNS3 facilita la realización de pruebas sin necesidad de dis
 
 ## 3.6 Políticas de acceso entre VLANs
 
-Administración puede acceder a Servidores.
-
-Desarrollo solo accede a su VLAN y a servicios corporativos.
-
-Soporte Técnico tiene acceso controlado a todas las VLANs.
-
-Invitados no tienen acceso a recursos internos.
-
-La VLAN de servidores está aislada excepto para tráfico autorizado.
+- Administración puede acceder a Servidores.
+- Desarrollo solo accede a su VLAN y a servicios corporativos.
+- Soporte Técnico tiene acceso controlado a todas las VLANs.
+- Invitados no tienen acceso a recursos internos.
+- La VLAN de servidores está aislada excepto para tráfico autorizado.
 
 ## 3.7 Consideraciones de seguridad
 
-Segmentación estricta entre departamentos.
-
-Firewall con reglas específicas por VLAN.
-
-IDS/IPS monitorizando tráfico interno y externo.
-
-Autenticación centralizada mediante AD DS.
-
-Copias de seguridad automatizadas.
-
-VPN con cifrado fuerte.
+- Segmentación estricta entre departamentos.
+- Firewall con reglas específicas por VLAN.
+- IDS/IPS monitorizando tráfico interno y externo.
+- Autenticación centralizada mediante AD DS.
+- Copias de seguridad automatizadas.
+- VPN con cifrado fuerte.
 
 ## 3.7.1 Política de copias de seguridad
 
