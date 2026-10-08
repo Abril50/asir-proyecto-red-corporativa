@@ -117,10 +117,10 @@ Las máquinas virtuales previstas son:
  
 Las máquinas virtuales previstas son:
 
-Windows Server.
-Servidor Linux de monitorización.
-Servidor de copias de seguridad.
-Servidor de pruebas y laboratorio
+- Windows Server.
+- Servidor Linux de monitorización.
+- Servidor de copias de seguridad.
+- Servidor de pruebas y laboratorio.
 
  
 La utilización de virtualización facilita además la escalabilidad futura de la infraestructura.
