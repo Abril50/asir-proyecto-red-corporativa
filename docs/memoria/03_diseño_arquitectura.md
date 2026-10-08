@@ -115,13 +115,12 @@ La plataforma de virtualización permitirá ejecutar múltiples máquinas virtua
 Las máquinas virtuales previstas son:
 
  
-1 - Windows Server
+Las máquinas virtuales previstas son:
 
-2 - Servidor Linux de monitorización
-
-3 - Servidor de copias de seguridad
-
-4 - Servidor de pruebas
+Windows Server.
+Servidor Linux de monitorización.
+Servidor de copias de seguridad.
+Servidor de pruebas y laboratorio
 
  
 La utilización de virtualización facilita además la escalabilidad futura de la infraestructura.
