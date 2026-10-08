@@ -2,7 +2,6 @@
 El diseño de la arquitectura de red corporativa para TechMarbella Solutions S.L. se basa en los requisitos definidos en el capítulo anterior y en las buenas prácticas de administración de sistemas y seguridad. La solución propuesta busca garantizar la disponibilidad, seguridad, escalabilidad y eficiencia de los servicios corporativos.
 
 ## 3.1 Visión general de la arquitectura.
-
 La infraestructura se compone de:
 - Dos firewalls perimetrales configurados en alta disponibilidad para garantizar la continuidad del servicio ante fallos. 
 - Un switch gestionable que permite la segmentación mediante VLANs.
@@ -17,7 +16,6 @@ La infraestructura se compone de:
 - Estaciones de trabajo distribuidas en tres departamentos: Administración, Desarrollo y Soporte Técnico.
 
 ## 3.2 Segmentación de red mediante VLANs
-
 Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 
 | Departamento / Servicio        | VLAN | Descripción                                      |
@@ -32,7 +30,6 @@ Para mejorar la seguridad y el rendimiento, la red se segmenta en VLANs:
 Cada VLAN tiene su propio rango de direcciones IP y políticas de acceso específicas.
 
 ## 3.3 Tabla de direccionamiento IP
-
 La tabla de direccionamiento propuesta es:
 
 | VLAN | Rango IP | Gateway | Máscara |
@@ -48,8 +45,7 @@ El firewall se encarga del enrutamiento inter-VLAN y de aplicar las políticas d
 
 ## 3.3.1 Justificación del direccionamiento IP
 
-### Justificación del direccionamiento IP
- 
+### Justificación del direccionamiento IP 
 Se ha optado por utilizar direcciones privadas dentro del rango 192.168.0.0/16 debido a su simplicidad de administración y amplia compatibilidad con entornos empresariales.
  
 Cada VLAN dispone de una subred independiente de tipo /24, permitiendo una correcta segregación del tráfico y facilitando la gestión de los distintos departamentos de la empresa.
@@ -58,42 +54,26 @@ Esta estructura permite ampliar la infraestructura en el futuro manteniendo una 
 
 ## 3.4 Componentes principales de la arquitectura
  
-### Firewall perimetral
- 
-Responsable de proteger la red corporativa mediante filtrado de tráfico, NAT, VPN y control de acceso entre VLANs.
- 
+### Firewall perimetral 
+Responsable de proteger la red corporativa mediante filtrado de tráfico, NAT, VPN y control de acceso entre VLANs. 
 ### Switch gestionable
- 
-Permite la segmentación de la red mediante VLANs y la conexión de los distintos segmentos de la infraestructura.
- 
-### Servidor Windows Server
- 
+Permite la segmentación de la red mediante VLANs y la conexión de los distintos segmentos de la infraestructura. 
+### Servidor Windows Server 
 Proporciona servicios de directorio activo, DNS, DHCP, servidor de archivos y aplicación de políticas de grupo.
- 
-### Servidor Linux
- 
+### Servidor Linux 
 Aloja servicios de seguridad, monitorización, automatización e intranet corporativa.
- 
-### Plataforma de virtualización
- 
+### Plataforma de virtualización 
 Permite la ejecución de múltiples máquinas virtuales sobre una infraestructura física común.
- 
 ### Sistema de monitorización
- 
 Facilita la supervisión continua de servidores, dispositivos de red y aplicaciones.
- 
 ### Sistema de copias de seguridad
- 
 Garantiza la disponibilidad y recuperación de la información.
- 
 ### Sistema de auditoría informática
- 
 Permite registrar y analizar eventos relacionados con la seguridad de la infraestructura.
 
 ## 3.4.1 Virtualización
   
 ### Virtualización de servicios 
-
 La plataforma de virtualización seleccionada para el proyecto será Proxmox VE, solución de código abierto que permitirá desplegar y administrar las diferentes máquinas virtuales que forman parte de la infraestructura corporativa.
 
 Proxmox VE permitirá la gestión centralizada de máquinas virtuales, snapshots, copias de seguridad y restauración de servicios críticos.
@@ -114,7 +94,6 @@ La utilización de virtualización facilita además la escalabilidad futura de l
 ## 3.4.2 Monitorización y gestión de eventos
 
 ### Sistema de monitorización y gestión de eventos
-
 La infraestructura contará con una plataforma centralizada de monitorización que permitirá supervisar el estado de los servidores, dispositivos de red y servicios corporativos.
  
 Las principales funciones serán:
@@ -129,14 +108,12 @@ Para ello se utilizarán herramientas como Wazuh, Zabbix o Prometheus.
 
 ## 3.4.3 Auditoría informática 
 
-### Integración de la auditoría informática
- 
+### Integración de la auditoría informática 
 La arquitectura ha sido diseñada considerando la futura realización de auditorías de seguridad y cumplimiento.
  
 Todos los sistemas generarán registros de actividad susceptibles de ser analizados durante el proceso de auditoría informática, permitiendo evaluar la seguridad de la infraestructura y el cumplimiento de las políticas corporativas.
 
-## 3.4.4 Sistema de almacenamiento
- 
+## 3.4.4 Sistema de almacenamiento 
 La infraestructura dispondrá de un sistema de almacenamiento centralizado destinado al almacenamiento de copias de seguridad, registros de auditoría y documentación corporativa.
  
 Sus funciones principales serán:
@@ -152,7 +129,6 @@ Este sistema podrá implementarse mediante un NAS corporativo o un servidor de a
 ## 3.5 Diagrama lógico de la arquitectura
 
 ### Elementos representados en el diagrama
-
 - Firewall
 - Switch gestionable
 - VLANs
@@ -163,7 +139,6 @@ Este sistema podrá implementarse mediante un NAS corporativo o un servidor de a
 - Sistema de backups
 
 ## 3.5.1 Diagrama físico de la infraestructura
-
 Además del diagrama lógico, se elaborará un diagrama físico que representará la distribución de los principales elementos hardware de la infraestructura:
  
 - Firewall
@@ -176,7 +151,6 @@ Además del diagrama lógico, se elaborará un diagrama físico que representar�
 Este diagrama facilitará la comprensión de la arquitectura y servirá como documentación técnica para futuras tareas de mantenimiento.
 
 ## 3.5.2 Entorno de simulación
-
 La simulación de red se realizará mediante GNS3, desplegado sobre una máquina virtual alojada en Proxmox VE.
 
 Con el fin de validar la arquitectura propuesta antes de su implantación, se utilizará la plataforma GNS3 para simular la infraestructura corporativa.
@@ -193,7 +167,6 @@ El entorno permitirá verificar:
 La utilización de GNS3 facilita la realización de pruebas sin necesidad de disponer de equipamiento físico completo.
 
 ## 3.6 Políticas de acceso entre VLANs
-
 - Administración puede acceder a Servidores.
 - Desarrollo solo accede a su VLAN y a servicios corporativos.
 - Soporte Técnico tiene acceso controlado a todas las VLANs.
@@ -201,7 +174,6 @@ La utilización de GNS3 facilita la realización de pruebas sin necesidad de dis
 - La VLAN de servidores está aislada excepto para tráfico autorizado.
 
 ## 3.7 Consideraciones de seguridad
-
 - Segmentación estricta entre departamentos.
 - Firewall con reglas específicas por VLAN.
 - IDS/IPS monitorizando tráfico interno y externo.
@@ -210,7 +182,6 @@ La utilización de GNS3 facilita la realización de pruebas sin necesidad de dis
 - VPN con cifrado fuerte.
 
 ## 3.7.1 Política de copias de seguridad
-
 Política de copias de seguridad
  
 Para garantizar la disponibilidad y recuperación de la información se implementará una estrategia de copias de seguridad basada en:
@@ -223,7 +194,6 @@ Para garantizar la disponibilidad y recuperación de la información se implemen
 Esta política permitirá minimizar la pérdida de datos ante fallos técnicos o incidentes de seguridad.
 
 ## 3.7.2 Acceso remoto seguro
-
 Acceso remoto seguro
  
 Los usuarios autorizados podrán acceder a los recursos corporativos mediante una VPN cifrada.
@@ -233,19 +203,15 @@ Este sistema permitirá el teletrabajo manteniendo la confidencialidad e integri
 ## 3.8 Redundancia y alta disponibilidad
 
 ### 3.8.1 Redundancia de conectividad
-
 La empresa dispondrá de una conexión principal y una conexión secundaria a Internet. En caso de fallo de la conexión principal, el tráfico podrá redirigirse automáticamente a la conexión de respaldo.
 
 ### 3.8.2 Redundancia de firewall
-
 La infraestructura contempla dos firewalls en alta disponibilidad, permitiendo que uno asuma las funciones del otro en caso de incidencia.
 
 ### 3.8.3 Redundancia de servidores
-
 Los servicios críticos estarán virtualizados y respaldados mediante copias de seguridad periódicas, facilitando su recuperación ante fallos.
 
 ### 3.8.4 Beneficios de la alta disponibilidad
-
 Los mecanismos de redundancia permitirán:
 
 - Reducir los tiempos de inactividad.
@@ -254,5 +220,4 @@ Los mecanismos de redundancia permitirán:
 - Garantizar la continuidad operativa de la empresa.
 
 ## 3.9 Conclusión del diseño
-
 La arquitectura propuesta proporciona una infraestructura segura, escalable y eficiente, alineada con las necesidades de TechMarbella Solutions S.L. y con las buenas prácticas de administración de sistemas. Este diseño servirá como base para la implementación detallada en el capítulo siguiente.
