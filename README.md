@@ -1,7 +1,7 @@
 ## Asir-Proyecto-Red-Corporativa
 Proyecto ASIR – Diseño e Implementación de una Infraestructura de Red Corporativa Segura
 
-## 1. Introducción**
+## 1. Introducción
 El presente documento constituye la memoria técnica del proyecto final del módulo 0379 – Administración de Sistemas Informáticos en Red (ASIR).
 El objetivo principal es diseñar, implementar y documentar una infraestructura de red corporativa segura, orientada a una empresa ficticia de tamaño medio, siguiendo buenas prácticas de administración de sistemas, seguridad informática y gestión de servicios.
 
