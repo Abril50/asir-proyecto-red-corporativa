@@ -7,11 +7,11 @@ El objetivo principal es diseñar, implementar y documentar una infraestructura 
 
 Este proyecto refleja las competencias adquiridas durante el ciclo formativo, incluyendo administración de redes, despliegue de servicios, gestión de identidades, seguridad perimetral, monitorización y documentación técnica.
 
-## 2. Descripción de la empresa**
+## 2. Descripción de la empresa
 TechMarbella Solutions S.L. es una empresa ficticia dedicada a servicios tecnológicos, con una plantilla de 30 empleados distribuidos en tres departamentos: Administración, Desarrollo y Soporte.
 La organización requiere una infraestructura de red segura, segmentada y gestionable, que garantice la disponibilidad, integridad y confidencialidad de sus servicios internos.
 
-## 3. Objetivos del proyecto**
+## 3. Objetivos del proyecto
 Objetivo general
 - Diseñar y desplegar una infraestructura de red corporativa que integre servicios esenciales, mecanismos de seguridad y procedimientos de administración, cumpliendo los requisitos funcionales y no funcionales definidos.
 - Objetivos específicos
@@ -23,12 +23,12 @@ Objetivo general
 - Implementar una solución de copias de seguridad y recuperación ante desastres.
 - Documentar la arquitectura, la configuración y las pruebas realizadas.
 
-## 4. Alcance del proyecto**
+## 4. Alcance del proyecto
 El proyecto abarca el diseño lógico y físico de la red, la configuración de los servicios principales, la implementación de medidas de seguridad, la realización de pruebas funcionales y de seguridad, y la elaboración de la documentación técnica correspondiente.
 
 No se incluye la adquisición de hardware real, ya que la infraestructura se simula mediante entornos virtualizados.
 
-## 5. Arquitectura de la solución**
+## 5. Arquitectura de la solución
 La infraestructura propuesta se compone de:
 
 - Firewall corporativo (pfSense/MikroTik)
@@ -41,7 +41,7 @@ La infraestructura propuesta se compone de:
 - Sistema de copias de seguridad con pruebas de restauración
 - Los diagramas de red y topología se encuentran en la carpeta /diagrams.
 
-## 6. Estructura del repositorio**
+## 6. Estructura del repositorio
 
 La siguiente estructura muestra la organización completa del proyecto **asir-proyecto-red-corporativa**, incluyendo la memoria, manuales, diagramas y recursos asociados.
 
@@ -71,7 +71,7 @@ La siguiente estructura muestra la organización completa del proyecto **asir-pr
 └── assets/
 ```
 
-## 7. Documentación asociada**
+## 7. Documentación asociada
 En la carpeta /docs/memoria se incluye la memoria completa del proyecto, organizada en capítulos:
 
 - Planificación
@@ -86,9 +86,9 @@ En la carpeta /docs/memoria se incluye la memoria completa del proyecto, organiz
 
 Los manuales de usuario y administrador se encuentran en /docs/manuales.
 
-## 8. Estado del proyecto**
+## 8. Estado del proyecto
 El proyecto se encuentra en fase de desarrollo y documentación.
 Las configuraciones, diagramas y evidencias se irán incorporando progresivamente conforme avance la implementación.
 
-## 9. Autoría**
+## 9. Autoría
 Proyecto realizado por Diego Manuel Abril Cervera, alumno de IES Aguadulce del ciclo formativo de Administración de Sistemas Informáticos en Red (ASIR).
