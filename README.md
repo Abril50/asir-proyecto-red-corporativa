@@ -14,7 +14,7 @@ La organización requiere una infraestructura de red segura, segmentada y gestio
 ## 3. Objetivos del proyecto
 Objetivo general
 - Diseñar y desplegar una infraestructura de red corporativa que integre servicios esenciales, mecanismos de seguridad y procedimientos de administración, cumpliendo los requisitos funcionales y no funcionales definidos.
-- Objetivos específicos
+Objetivos específicos
 - Implementar una red segmentada mediante VLANs.
 - Desplegar servicios corporativos: Directorio Activo, DNS, DHCP, servidor de archivos e intranet.
 - Configurar un firewall perimetral con políticas de filtrado.
