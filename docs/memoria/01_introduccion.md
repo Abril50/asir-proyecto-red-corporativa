@@ -91,7 +91,7 @@ Relaciones externas:
 - Empresas clientes que contratan servicios TI.
 - Servicios de telecomunicaciones y hosting.
 
-**10. Economía (manejo del dinero)**
+## 10. Economía (manejo del dinero)
 La empresa se financia mediante:
 
 - Contratos de mantenimiento TI.
