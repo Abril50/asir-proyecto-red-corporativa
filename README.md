@@ -18,29 +18,33 @@ Objetivo general
 Objetivos específicos
 - Implementar una red segmentada mediante VLANs.
 - Desplegar servicios corporativos: Directorio Activo, DNS, DHCP, servidor de archivos e intranet.
-- Configurar un firewall perimetral con políticas de filtrado.
+- Configurar una infraestructura de firewall en alta disponibilidad con políticas de filtrado y control de acceso.
 - Integrar un sistema IDS/IPS para detección de amenazas.
 - Establecer un sistema de monitorización y alertas.
 - Implementar una solución de copias de seguridad y recuperación ante desastres.
 - Documentar la arquitectura, la configuración y las pruebas realizadas.
+- Implementar una plataforma de virtualización basada en Proxmox VE.
+- Validar la infraestructura mediante simulación utilizando GNS3.
+- Diseñar mecanismos de redundancia y alta disponibilidad para minimizar interrupciones del servicio.
 
 ## 4. Alcance del proyecto
 El proyecto abarca el diseño lógico y físico de la red, la configuración de los servicios principales, la implementación de medidas de seguridad, la realización de pruebas funcionales y de seguridad, y la elaboración de la documentación técnica correspondiente.
-
-No se incluye la adquisición de hardware real, ya que la infraestructura se simula mediante entornos virtualizados.
+No se incluye la adquisición de hardware específico para producción. La infraestructura será desplegada y validada mediante un entorno virtualizado basado en Proxmox VE y un laboratorio de simulación implementado con GNS3.
 
 ## 5. Arquitectura de la solución
 La infraestructura propuesta se compone de:
-
-- Firewall corporativo (pfSense/MikroTik)
-- Switches gestionables con segmentación por VLAN
-- Servidor Windows Server para AD DS, DNS, DHCP y recursos compartidos
-- Servidor Linux para servicios web internos y monitorización
-- Sistema IDS/IPS basado en Suricata
-- Plataforma de análisis y correlación de eventos (Wazuh)
-- VPN corporativa para acceso remoto seguro
-- Sistema de copias de seguridad con pruebas de restauración
-- Los diagramas de red y topología se encuentran en la carpeta /diagrams.
+- Dos firewalls pfSense configurados en alta disponibilidad.
+- Switch gestionable con segmentación mediante VLANs.
+- Plataforma de virtualización basada en Proxmox VE.
+- Entorno de simulación y validación mediante GNS3.
+- Servidor Windows Server para Active Directory, DNS, DHCP y recursos compartidos.
+- Servidor Linux para monitorización, IDS/IPS, automatización e intranet corporativa.
+- Sistema IDS/IPS basado en Suricata.
+- Plataforma de monitorización y correlación de eventos basada en Wazuh.
+- VPN corporativa para acceso remoto seguro.
+- Sistema de almacenamiento con redundancia RAID 1.
+- Sistema de copias de seguridad y recuperación ante desastres.
+- Infraestructura diseñada con mecanismos de redundancia y alta disponibilidad.
 
 ## 6. Estructura del repositorio
 
@@ -88,7 +92,7 @@ En la carpeta /docs/memoria se incluye la memoria completa del proyecto, organiz
 Los manuales de usuario y administrador se encuentran en /docs/manuales.
 
 ## 8. Estado del proyecto
-El proyecto se encuentra en fase de desarrollo y documentación.
+El proyecto se encuentra en fase de implementación. Las fases de planificación, análisis de requisitos y diseño de arquitectura han sido completadas. La siguiente etapa contempla el despliegue y configuración de los servicios definidos en la infraestructura.
 Las configuraciones, diagramas y evidencias se irán incorporando progresivamente conforme avance la implementación.
 
 ## 9. Autoría
