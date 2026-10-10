@@ -13,6 +13,7 @@ TechMarbella Solutions S.L. es una empresa tecnológica con tres departamentos p
 - Establecer un sistema de copias de seguridad fiable y recuperable.
 - Facilitar el acceso remoto seguro para empleados autorizados mediante VPN.
 - Estas necesidades se traducen en requisitos técnicos que guiarán el diseño de la solución.
+- Garantizar la continuidad del servicio mediante mecanismos de redundancia y alta disponibilidad.
 
 ## 2.2 Requisitos funcionales
 Los requisitos funcionales definen las capacidades que la infraestructura debe proporcionar:
@@ -27,6 +28,8 @@ Los requisitos funcionales definen las capacidades que la infraestructura debe p
 - Sistema de monitorización (logs, métricas, alertas).
 - Sistema de copias de seguridad automatizado.
 - Intranet corporativa para documentación interna y comunicación.
+- Implementación de mecanismos de redundancia para servicios críticos.
+- Infraestructura virtualizada para facilitar la administración y recuperación ante incidencias.
 
 ## 2.3 Requisitos no funcionales
 Los requisitos no funcionales establecen criterios de calidad y rendimiento:
@@ -37,6 +40,7 @@ Los requisitos no funcionales establecen criterios de calidad y rendimiento:
 - Seguridad: cumplimiento de buenas prácticas y políticas internas.
 - Mantenibilidad: la infraestructura debe ser fácil de administrar y documentar.
 - Fiabilidad: los datos deben estar protegidos y ser recuperables ante fallos.
+- Alta disponibilidad: los servicios críticos deberán minimizar los tiempos de interrupción ante fallos.
 
 ## 2.4 Restricciones del proyecto
 El proyecto debe desarrollarse teniendo en cuenta las siguientes limitaciones:
@@ -57,6 +61,9 @@ Incluido
 - Despliegue de servicios corporativos (AD DS, DNS, DHCP, servidor de archivos).
 - Sistema de monitorización y alertas.
 - Copias de seguridad y recuperación.
+- Implementación de mecanismos de alta disponibilidad y redundancia.
+- Plataforma de virtualización basada en Proxmox VE.
+- Entorno de simulación y validación mediante GNS3.
 - Documentación técnica y manuales.
 - Auditoría informática final.
 
