@@ -10,7 +10,7 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
 - Instalación.
 - Configuración IP inicial.
 - Acceso web:
-- Primero muestro como que el data center de proxmox en su ventana inicial.
+- Primero muestro como queda el data center de proxmox en su ventana inicial.
 - 
   <img width="1919" height="1071" alt="imagen" src="https://github.com/user-attachments/assets/e1158024-4a45-43b7-ba99-875af8fa19d6" />
 
