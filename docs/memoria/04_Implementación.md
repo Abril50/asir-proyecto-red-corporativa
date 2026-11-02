@@ -16,7 +16,7 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
 
 
   Conecto con el servidor Proxmox VE a través de mi portátil a través del navegador. Todo esto después de haber descargado la ISO de Proxmox VE
-  y la creación de un USB arranca-ble con <img width="187" height="75" alt="imagen" src="https://github.com/user-attachments/assets/b71e3e11-2a33-45d2-8130-6765fc09f3bf" /> programa para crear autoarrancable de proxmox VE, luego instalo, configuro varias pasos e inicio el acceso. 
+  y la creación de un USB arranca-ble con balenaEtcher programa para crear autoarrancable de proxmox VE, luego instalo, configuro varias pasos e inicio el acceso. 
 
 
   https://192.168.1.45:8006/
