@@ -10,6 +10,11 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
 - Instalación.
 - Configuración IP inicial.
 - Acceso web:
+  Conecto con el servidor Proxmox VE a través de mi portátil a través del navegador.
+
+  https://192.168.1.45:8006/
+  <img width="1911" height="1071" alt="imagen" src="https://github.com/user-attachments/assets/8a3595b1-9354-40cd-bbf9-ea09aab6cabc" />
+
 
 
 
