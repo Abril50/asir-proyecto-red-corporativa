@@ -10,6 +10,11 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
 - Instalación.
 - Configuración IP inicial.
 - Acceso web:
+- Primero muestro como que el data center de proxmox en su ventana inicial.
+- 
+  <img width="1919" height="1071" alt="imagen" src="https://github.com/user-attachments/assets/e1158024-4a45-43b7-ba99-875af8fa19d6" />
+
+
   Conecto con el servidor Proxmox VE a través de mi portátil a través del navegador. Todo esto después de haber descargado la ISO de Proxmox VE
   y la creación de un USB arrancable con <img width="187" height="75" alt="imagen" src="https://github.com/user-attachments/assets/b71e3e11-2a33-45d2-8130-6765fc09f3bf" /> programa para crear autoarracanble de proxmox VE, luego instalo, configuro varias pasos e inicio el acceso. 
 
