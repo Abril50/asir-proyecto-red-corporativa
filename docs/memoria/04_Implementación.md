@@ -62,7 +62,15 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
   - La dirección IP asignada al servidor Proxmox fue 192.168.1.45/24, permitiendo el acceso a la interfaz de administración web desde la red local.
 
   - Este bridge actúa como punto de conexión entre las máquinas virtuales y la red física, permitiendo que los diferentes servicios desplegados dispongan de conectividad y acceso a Internet.
-  
+    
+  ## 4.4 Implementación del entorno GNS3
+
+  - Con el fin de validar la infraestructura diseñada en fases anteriores, se desplegó una máquina virtual Ubuntu Server sobre Proxmox VE, destinada a ejecutar el servicio GNS3 Server.
+
+  - Esta plataforma permitió construir laboratorios virtuales para verificar la conectividad entre VLANs, las políticas de seguridad implementadas en pfSense y el funcionamiento general de la infraestructura antes de su despliegue definitivo.
+  - Descargo Ubuntu Server 24.04.3-live-server-amd64.iso
+    <img width="1145" height="506" alt="imagen" src="https://github.com/user-attachments/assets/de46aa4f-24fa-484e-91d1-5cbdf0dc3f18" />
+
   
 
 
