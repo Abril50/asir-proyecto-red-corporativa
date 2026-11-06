@@ -32,6 +32,7 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
      <img width="1919" height="1073" alt="imagen" src="https://github.com/user-attachments/assets/d5a5a4cc-52c5-4c52-94d2-7a708475a0b0" />
    - Termina la instalación de actualización 
    <img width="1901" height="1075" alt="imagen" src="https://github.com/user-attachments/assets/23cdabba-6938-4341-939b-d40a7b0aad94" />
+   
   ## 4.3.1 Configuración del almacenamiento
   
   - Tras la instalación de Proxmox VE se procedió a la configuración del sistema de almacenamiento que dará soporte a las máquinas virtuales y a los recursos necesarios para el desarrollo de la infraestructura.
