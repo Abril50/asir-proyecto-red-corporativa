@@ -36,11 +36,11 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
   ## 4.3.2 Configuración de red
   - Tras la instalación de Proxmox VE se verificó la configuración de red creada automáticamente durante el proceso de instalación.
 
- - La plataforma configuró el bridge virtual vmbr0 utilizando la interfaz física principal nic0.
+  - La plataforma configuró el bridge virtual vmbr0 utilizando la interfaz física principal nic0.
 
- - La dirección IP asignada al servidor Proxmox fue 192.168.1.45/24, permitiendo el acceso a la interfaz de administración web desde la red local.
+  - La dirección IP asignada al servidor Proxmox fue 192.168.1.45/24, permitiendo el acceso a la interfaz de administración web desde la red local.
 
- - Este bridge actúa como punto de conexión entre las máquinas virtuales y la red física, permitiendo que los diferentes servicios desplegados dispongan de conectividad y acceso a Internet.
+  - Este bridge actúa como punto de conexión entre las máquinas virtuales y la red física, permitiendo que los diferentes servicios desplegados dispongan de conectividad y acceso a Internet.
   
   
 
