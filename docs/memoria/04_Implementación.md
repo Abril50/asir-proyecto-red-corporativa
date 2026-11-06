@@ -69,7 +69,7 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
 
   - Esta plataforma permitió construir laboratorios virtuales para verificar la conectividad entre VLANs, las políticas de seguridad implementadas en pfSense y el funcionamiento general de la infraestructura antes de su despliegue definitivo.
   - Descargo Ubuntu Server 24.04.3-live-server-amd64.iso
-    <img width="1145" height="506" alt="imagen" src="https://github.com/user-attachments/assets/de46aa4f-24fa-484e-91d1-5cbdf0dc3f18" />
+   <img width="1450" height="204" alt="imagen" src="https://github.com/user-attachments/assets/422d6265-732d-4ce9-b697-c0bd62370247" />
 
   
 
