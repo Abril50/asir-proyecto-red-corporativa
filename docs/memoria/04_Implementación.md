@@ -24,7 +24,28 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
   
   <img width="1919" height="1071" alt="imagen" src="https://github.com/user-attachments/assets/e1158024-4a45-43b7-ba99-875af8fa19d6" />
 
-  -  En el servidor donde instale Proxmox VE. Muestro los discos enmarcados en rojo con los que voy a trabajar.
+   - En el servidor donde instale Proxmox VE. Muestro los discos enmarcados en rojo con los que voy a trabajar.
   
    <img width="1919" height="1079" alt="imagen" src="https://github.com/user-attachments/assets/e990bf66-493e-43b1-a1ce-e6feaf296050" />
+
+   - Después de instalar proxmox, lo actualizo con apt update
+     <img width="1919" height="1073" alt="imagen" src="https://github.com/user-attachments/assets/d5a5a4cc-52c5-4c52-94d2-7a708475a0b0" />
+   - Termina la instalación de actualización 
+   <img width="1901" height="1075" alt="imagen" src="https://github.com/user-attachments/assets/23cdabba-6938-4341-939b-d40a7b0aad94" />
+   
+  ## 4.3.2 Configuración de red
+  - Tras la instalación de Proxmox VE se verificó la configuración de red creada automáticamente durante el proceso de instalación.
+
+ - La plataforma configuró el bridge virtual vmbr0 utilizando la interfaz física principal nic0.
+
+ - La dirección IP asignada al servidor Proxmox fue 192.168.1.45/24, permitiendo el acceso a la interfaz de administración web desde la red local.
+
+ - Este bridge actúa como punto de conexión entre las máquinas virtuales y la red física, permitiendo que los diferentes servicios desplegados dispongan de conectividad y acceso a Internet.
+  
+  
+
+
+
+   
+   
 
