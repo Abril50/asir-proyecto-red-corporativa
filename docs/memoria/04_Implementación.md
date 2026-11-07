@@ -80,8 +80,11 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
    CONTRASEÑA usuario26
     <img width="1915" height="1076" alt="imagen" src="https://github.com/user-attachments/assets/eabff135-3eb5-47fd-aabf-d62c9e7e3ad8" />
 
-  - Realizo captura de pantalla completa de la instalación y realizo actualización con apt update.
+  - Realizo captura de pantalla completa de la instalación y realizo actualización con apt update a continuación.
     <img width="1920" height="1080" alt="imagen" src="https://github.com/user-attachments/assets/99cfe616-c8b4-4750-9471-0c2af4fbf3f2" />
+  - Y apt upgrade -y
+    <img width="1920" height="1080" alt="imagen" src="https://github.com/user-attachments/assets/df4227db-8c59-4b75-909b-2c2cabe20abc" />
+
  
   
 
