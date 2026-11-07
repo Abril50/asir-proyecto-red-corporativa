@@ -70,6 +70,10 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
   - Esta plataforma permitió construir laboratorios virtuales para verificar la conectividad entre VLANs, las políticas de seguridad implementadas en pfSense y el funcionamiento general de la infraestructura antes de su despliegue definitivo.
   - Descargo Ubuntu Server 24.04.3-live-server-amd64.iso
    <img width="1450" height="204" alt="imagen" src="https://github.com/user-attachments/assets/422d6265-732d-4ce9-b697-c0bd62370247" />
+  - Subo la imagen a Proxmox para su posterior instalación.
+    <img width="1901" height="1079" alt="imagen" src="https://github.com/user-attachments/assets/f9865e16-777e-49a1-990c-9928e0746be5" />
+    
+
 
   
 
