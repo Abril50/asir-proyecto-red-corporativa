@@ -76,9 +76,13 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
     <img width="1919" height="1074" alt="imagen" src="https://github.com/user-attachments/assets/8a339988-adbc-45c3-a5b4-ede8dc01551a" />
   - Configuro el asistente con los valores necesarios para la máquina virtual.
     <img width="1919" height="1073" alt="imagen" src="https://github.com/user-attachments/assets/93876586-39f8-4bd5-9fc7-5f294eac748e" />
-  -Se desplegó una máquina virtual Ubuntu Server 24.04 LTS destinada a alojar GNS3 Server. Durante la instalación se configuró un disco virtual de 40 GB        utilizando almacenamiento SSD gestionado por Proxmox VE, garantizando un rendimiento adecuado para las tareas de simulación de red. USUARIO = diego
+  - Se desplegó una máquina virtual Ubuntu Server 24.04 LTS destinada a alojar GNS3 Server. Durante la instalación se configuró un disco virtual de 40 GB        utilizando almacenamiento SSD gestionado por Proxmox VE, garantizando un rendimiento adecuado para las tareas de simulación de red. USUARIO = diego
    CONTRASEÑA usuario26
     <img width="1915" height="1076" alt="imagen" src="https://github.com/user-attachments/assets/eabff135-3eb5-47fd-aabf-d62c9e7e3ad8" />
+
+  - Realizo captura de pantalla completa de la instalación y realizo actualización con apt update.
+    <img width="1920" height="1080" alt="imagen" src="https://github.com/user-attachments/assets/99cfe616-c8b4-4750-9471-0c2af4fbf3f2" />
+ 
   
 
   
