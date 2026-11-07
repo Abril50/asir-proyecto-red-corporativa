@@ -70,8 +70,12 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
   - Esta plataforma permitió construir laboratorios virtuales para verificar la conectividad entre VLANs, las políticas de seguridad implementadas en pfSense y el funcionamiento general de la infraestructura antes de su despliegue definitivo.
   - Descargo Ubuntu Server 24.04.3-live-server-amd64.iso
    <img width="1450" height="204" alt="imagen" src="https://github.com/user-attachments/assets/422d6265-732d-4ce9-b697-c0bd62370247" />
-  - Subo la imagen a Proxmox para su posterior instalación.
+  - Subo la imagen a Proxmox para la posterior creación de la máquina virtual para la implementación de GNS3 Server.
     <img width="1901" height="1079" alt="imagen" src="https://github.com/user-attachments/assets/f9865e16-777e-49a1-990c-9928e0746be5" />
+  - Tarea ok, como resultado de la subida de la imagen.
+    <img width="1919" height="1074" alt="imagen" src="https://github.com/user-attachments/assets/8a339988-adbc-45c3-a5b4-ede8dc01551a" />
+  
+
     
 
 
