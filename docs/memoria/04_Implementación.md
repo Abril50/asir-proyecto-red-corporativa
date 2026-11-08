@@ -84,7 +84,17 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
     <img width="1920" height="1080" alt="imagen" src="https://github.com/user-attachments/assets/99cfe616-c8b4-4750-9471-0c2af4fbf3f2" />
   - Y apt upgrade -y
     <img width="1920" height="1080" alt="imagen" src="https://github.com/user-attachments/assets/df4227db-8c59-4b75-909b-2c2cabe20abc" />
+  - Se desplegó una máquina virtual Ubuntu Server 24.04.5 LTS sobre la plataforma Proxmox VE.
 
+    Posteriormente se incorporó el repositorio oficial de GNS3 y se instaló GNS3 Server versión 2.2.61, permitiendo la creación de laboratorios de               simulación para validar la infraestructura diseñada durante las fases previas del proyecto.
+
+    La máquina virtual obtuvo conectividad mediante el bridge vmbr0 de Proxmox y recibió una dirección IP dentro de la red local para permitir la                administración remota y la conexión desde el cliente GNS3.
+    <img width="1913" height="1076" alt="imagen" src="https://github.com/user-attachments/assets/bcc87a1e-554a-4f27-87bd-6a660fbfa71c" />
+
+    
+
+    
+ 
  
   
 
