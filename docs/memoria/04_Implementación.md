@@ -91,7 +91,12 @@ El sistema operativo principal del equipo (Windows 11) se mantuvo instalado en u
     La máquina virtual obtuvo conectividad mediante el bridge vmbr0 de Proxmox y recibió una dirección IP dentro de la red local para permitir la                administración remota y la conexión desde el cliente GNS3.
     <img width="1913" height="1076" alt="imagen" src="https://github.com/user-attachments/assets/bcc87a1e-554a-4f27-87bd-6a660fbfa71c" />
 
-    
+   - Se desplegó una máquina virtual Ubuntu Server 24.04.5 LTS sobre Proxmox VE. En dicha máquina se instaló GNS3 Server 2.2.61, configurándose para aceptar      conexiones remotas a través del puerto TCP 3080.
+
+     Posteriormente se instaló GNS3 Desktop en un equipo cliente Windows 10 y se configuró para utilizar el servidor remoto desplegado en Proxmox VE. Esta        arquitectura permite centralizar la ejecución de los laboratorios y optimizar el uso de los recursos hardware disponibles
+     <img width="1907" height="1075" alt="imagen" src="https://github.com/user-attachments/assets/52f25163-5529-4087-a136-2ae87529a35c" />
+     
+
 
     
  
